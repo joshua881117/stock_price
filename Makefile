@@ -9,6 +9,6 @@ push-image:
 	docker push joshua881117/extending_airflow:${GIT_TAG}
 
 deploy-airflow:
-	GIT_TAG=${GIT_TAG} docker compose up
+	GIT_TAG=${GIT_TAG} docker compose up -d
 # stack deploy --with-registry-auth -c api.yml api
 
