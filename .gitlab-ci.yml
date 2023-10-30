@@ -17,3 +17,12 @@ build-docker-image:
   only:
     - tags
 
+deploy-airflow-service:
+  stage: deploy
+  script:
+    - make deploy-airflow
+  tags:
+    - build_airflow_image
+  only:
+    - tags
+
