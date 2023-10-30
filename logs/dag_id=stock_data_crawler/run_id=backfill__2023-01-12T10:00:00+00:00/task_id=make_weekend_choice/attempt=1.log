@@ -1,1 +1,0 @@
-[2023-10-24T12:40:35.221+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_crawler.make_weekend_choice backfill__2023-01-12T10:00:00+00:00 [queued]>
