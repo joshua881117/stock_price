@@ -13,7 +13,7 @@ build-docker-image:
     - make build-image
     - make push-image
   tags:
-    - build_image
+    - build_airflow_image
   only:
     - tags
 
