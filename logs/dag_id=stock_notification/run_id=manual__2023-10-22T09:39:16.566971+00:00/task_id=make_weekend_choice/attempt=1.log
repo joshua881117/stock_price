@@ -1,0 +1,26 @@
+[2023-10-22T17:39:19.648+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T09:39:16.566971+00:00 [queued]>
+[2023-10-22T17:39:19.655+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T09:39:16.566971+00:00 [queued]>
+[2023-10-22T17:39:19.655+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-22T17:39:19.663+0800] {taskinstance.py:1382} INFO - Executing <Task(BranchDayOfWeekOperator): make_weekend_choice> on 2023-10-22 09:39:16.566971+00:00
+[2023-10-22T17:39:19.669+0800] {standard_task_runner.py:57} INFO - Started process 99 to run task
+[2023-10-22T17:39:19.673+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_notification', 'make_weekend_choice', 'manual__2023-10-22T09:39:16.566971+00:00', '--job-id', '250', '--raw', '--subdir', 'DAGS_FOLDER/stock_notification.py', '--cfg-path', '/tmp/tmp7__lvham']
+[2023-10-22T17:39:19.677+0800] {standard_task_runner.py:85} INFO - Job 250: Subtask make_weekend_choice
+[2023-10-22T17:39:19.735+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T09:39:16.566971+00:00 [running]> on host ef26f8406025
+[2023-10-22T17:39:19.786+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_notification' AIRFLOW_CTX_TASK_ID='make_weekend_choice' AIRFLOW_CTX_EXECUTION_DATE='2023-10-22T09:39:16.566971+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-22T09:39:16.566971+00:00'
+[2023-10-22T17:39:19.788+0800] {skipmixin.py:173} INFO - Following branch get_stock_pricea
+[2023-10-22T17:39:19.791+0800] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/branch.py", line 55, in execute
+    self.skip_all_except(context["ti"], branches_to_execute)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/skipmixin.py", line 208, in skip_all_except
+    raise AirflowException(
+airflow.exceptions.AirflowException: 'branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'get_stock_pricea'}.
+[2023-10-22T17:39:19.793+0800] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=stock_notification, task_id=make_weekend_choice, execution_date=20231022T093916, start_date=20231022T093919, end_date=20231022T093919
+[2023-10-22T17:39:19.826+0800] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-10-22T17:39:19.828+0800] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-22T17:39:21.815+0800] {email.py:281} INFO - Sent an alert email to ['joshua881117@gmail.com']
+[2023-10-22T17:39:23.244+0800] {standard_task_runner.py:104} ERROR - Failed to execute job 250 for task make_weekend_choice ('branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'get_stock_pricea'}.; 99)
+[2023-10-22T17:39:23.277+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-22T17:39:23.334+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

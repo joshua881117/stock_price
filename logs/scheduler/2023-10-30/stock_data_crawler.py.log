@@ -1,0 +1,976 @@
+[2023-10-30T08:04:44.215+0800] {processor.py:157} INFO - Started process (PID=26415) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:04:44.216+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:04:44.217+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:04:44.217+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:04:46.680+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:04:46.726+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:04:46.724+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:04:46.770+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:04:46.769+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:04:46.808+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 2.596 seconds
+[2023-10-30T08:09:55.830+0800] {processor.py:157} INFO - Started process (PID=26455) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:09:55.839+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:09:55.842+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:09:55.841+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:09:56.952+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:09:56.984+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:09:56.983+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:09:57.008+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:09:57.008+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:09:57.034+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 1.211 seconds
+[2023-10-30T08:26:30.731+0800] {processor.py:157} INFO - Started process (PID=26485) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:26:30.732+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:26:30.733+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:26:30.733+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:26:32.185+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:26:32.218+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:26:32.218+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:26:32.252+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:26:32.252+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:26:32.287+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 1.571 seconds
+[2023-10-30T08:28:15.206+0800] {processor.py:157} INFO - Started process (PID=26516) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:28:15.207+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:28:15.208+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:28:15.207+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:28:15.753+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:28:15.773+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:28:15.773+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:28:15.787+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:28:15.787+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:28:15.797+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.595 seconds
+[2023-10-30T08:30:25.157+0800] {processor.py:157} INFO - Started process (PID=26546) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:30:25.159+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:30:25.159+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:30:25.159+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:30:26.159+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:30:26.189+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:30:26.188+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:30:26.208+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:30:26.208+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:30:26.221+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 1.067 seconds
+[2023-10-30T08:47:26.579+0800] {processor.py:157} INFO - Started process (PID=26580) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:47:26.580+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:47:26.581+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:47:26.581+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:47:27.624+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:47:27.702+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:47:27.700+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:47:27.766+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:47:27.766+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:47:27.811+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 1.235 seconds
+[2023-10-30T08:49:36.288+0800] {processor.py:157} INFO - Started process (PID=26611) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:49:36.292+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:49:36.295+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:49:36.294+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:49:36.850+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:49:36.861+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:49:36.861+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:49:36.871+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:49:36.871+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:49:36.879+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.599 seconds
+[2023-10-30T08:50:54.827+0800] {processor.py:157} INFO - Started process (PID=26642) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:50:54.832+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:50:54.836+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:50:54.834+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:50:55.870+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:50:55.886+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:50:55.886+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:50:55.905+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:50:55.905+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:50:55.917+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 1.105 seconds
+[2023-10-30T08:51:26.360+0800] {processor.py:157} INFO - Started process (PID=26674) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:51:26.361+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:51:26.362+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:51:26.362+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:51:26.705+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:51:26.716+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:51:26.716+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:51:26.729+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:51:26.728+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:51:26.738+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.384 seconds
+[2023-10-30T08:51:57.309+0800] {processor.py:157} INFO - Started process (PID=26703) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:51:57.311+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:51:57.312+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:51:57.311+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:51:57.838+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:51:57.860+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:51:57.859+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:51:57.873+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:51:57.873+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:51:57.882+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.576 seconds
+[2023-10-30T08:52:28.329+0800] {processor.py:157} INFO - Started process (PID=26733) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:52:28.331+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:52:28.331+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:52:28.331+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:52:28.918+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:52:28.930+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:52:28.929+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:52:28.939+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:52:28.939+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:52:28.949+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.622 seconds
+[2023-10-30T08:52:59.366+0800] {processor.py:157} INFO - Started process (PID=26764) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:52:59.367+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:52:59.368+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:52:59.368+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:52:59.918+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:52:59.929+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:52:59.929+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:52:59.940+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:52:59.939+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:52:59.948+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.585 seconds
+[2023-10-30T08:53:30.380+0800] {processor.py:157} INFO - Started process (PID=26794) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:53:30.381+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:53:30.382+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:53:30.382+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:53:30.955+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:53:30.966+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:53:30.966+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:53:30.976+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:53:30.976+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:53:30.985+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.608 seconds
+[2023-10-30T08:54:01.560+0800] {processor.py:157} INFO - Started process (PID=26824) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:54:01.562+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:54:01.564+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:54:01.563+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:54:02.141+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:54:02.153+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:54:02.152+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:54:02.165+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:54:02.165+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:54:02.174+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.621 seconds
+[2023-10-30T08:54:32.632+0800] {processor.py:157} INFO - Started process (PID=26854) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:54:32.634+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:54:32.635+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:54:32.634+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:54:33.160+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:54:33.173+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:54:33.172+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:54:33.184+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:54:33.184+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:54:33.194+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.565 seconds
+[2023-10-30T08:55:03.603+0800] {processor.py:157} INFO - Started process (PID=26884) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:55:03.605+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:55:03.606+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:55:03.605+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:55:04.180+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:55:04.191+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:55:04.191+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:55:04.201+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:55:04.201+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:55:04.209+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.609 seconds
+[2023-10-30T08:55:34.687+0800] {processor.py:157} INFO - Started process (PID=26914) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:55:34.688+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:55:34.689+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:55:34.688+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:55:35.256+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:55:35.267+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:55:35.267+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:55:35.277+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:55:35.277+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:55:35.287+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.603 seconds
+[2023-10-30T08:56:05.861+0800] {processor.py:157} INFO - Started process (PID=26943) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:56:05.865+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:56:05.866+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:56:05.865+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:56:06.429+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:56:06.440+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:56:06.440+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:56:06.452+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:56:06.452+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:56:06.460+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.603 seconds
+[2023-10-30T08:56:36.981+0800] {processor.py:157} INFO - Started process (PID=26974) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:56:36.983+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:56:36.984+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:56:36.984+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:56:37.563+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:56:37.577+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:56:37.577+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:56:37.587+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:56:37.587+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:56:37.595+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.618 seconds
+[2023-10-30T08:57:08.111+0800] {processor.py:157} INFO - Started process (PID=27003) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:57:08.114+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:57:08.116+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:57:08.115+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:57:08.672+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:57:08.683+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:57:08.683+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:57:08.693+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:57:08.693+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:57:08.702+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.599 seconds
+[2023-10-30T08:57:39.100+0800] {processor.py:157} INFO - Started process (PID=27033) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:57:39.101+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:57:39.103+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:57:39.102+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:57:39.637+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:57:39.648+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:57:39.648+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:57:39.659+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:57:39.659+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:57:39.668+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.572 seconds
+[2023-10-30T08:58:10.182+0800] {processor.py:157} INFO - Started process (PID=27063) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:58:10.188+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:58:10.190+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:58:10.189+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:58:10.736+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:58:10.748+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:58:10.747+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:58:10.758+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:58:10.758+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:58:10.767+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.594 seconds
+[2023-10-30T08:58:41.252+0800] {processor.py:157} INFO - Started process (PID=27092) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:58:41.253+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:58:41.254+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:58:41.254+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:58:41.810+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:58:41.839+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:58:41.839+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:58:41.867+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:58:41.867+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:58:41.884+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.634 seconds
+[2023-10-30T08:59:12.380+0800] {processor.py:157} INFO - Started process (PID=27130) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:59:12.382+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:59:12.383+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:59:12.383+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:59:12.982+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:59:12.997+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:59:12.997+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:59:13.010+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:59:13.010+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:59:13.020+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.642 seconds
+[2023-10-30T08:59:43.489+0800] {processor.py:157} INFO - Started process (PID=27161) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:59:43.490+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T08:59:43.491+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:59:43.491+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:59:44.050+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T08:59:44.062+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:59:44.061+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T08:59:44.072+0800] {logging_mixin.py:151} INFO - [2023-10-30T08:59:44.072+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T08:59:44.081+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.595 seconds
+[2023-10-30T09:00:14.513+0800] {processor.py:157} INFO - Started process (PID=27191) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:00:14.516+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:00:14.516+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:00:14.516+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:00:15.060+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:00:15.071+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:00:15.071+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:00:15.082+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:00:15.082+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:00:15.092+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.581 seconds
+[2023-10-30T09:00:45.546+0800] {processor.py:157} INFO - Started process (PID=27221) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:00:45.551+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:00:45.551+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:00:45.551+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:00:46.085+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:00:46.096+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:00:46.096+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:00:46.108+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:00:46.108+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:00:46.117+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.573 seconds
+[2023-10-30T09:01:16.495+0800] {processor.py:157} INFO - Started process (PID=27251) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:01:16.496+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:01:16.496+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:01:16.496+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:01:17.018+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:01:17.029+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:01:17.029+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:01:17.039+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:01:17.039+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:01:17.048+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.556 seconds
+[2023-10-30T09:01:47.623+0800] {processor.py:157} INFO - Started process (PID=27280) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:01:47.625+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:01:47.626+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:01:47.625+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:01:48.146+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:01:48.157+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:01:48.156+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:01:48.166+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:01:48.166+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:01:48.175+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.555 seconds
+[2023-10-30T09:02:18.648+0800] {processor.py:157} INFO - Started process (PID=27310) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:02:18.651+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:02:18.652+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:02:18.652+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:02:19.170+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:02:19.181+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:02:19.181+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:02:19.192+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:02:19.192+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:02:19.200+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.555 seconds
+[2023-10-30T09:02:49.557+0800] {processor.py:157} INFO - Started process (PID=27340) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:02:49.561+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:02:49.562+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:02:49.561+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:02:50.085+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:02:50.097+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:02:50.097+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:02:50.108+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:02:50.108+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:02:50.116+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.562 seconds
+[2023-10-30T09:03:20.570+0800] {processor.py:157} INFO - Started process (PID=27369) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:03:20.571+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:03:20.572+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:03:20.571+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:03:21.101+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:03:21.112+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:03:21.112+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:03:21.122+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:03:21.122+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:03:21.132+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.565 seconds
+[2023-10-30T09:03:51.635+0800] {processor.py:157} INFO - Started process (PID=27399) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:03:51.644+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:03:51.646+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:03:51.645+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:03:52.158+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:03:52.169+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:03:52.169+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:03:52.180+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:03:52.180+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:03:52.189+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.564 seconds
+[2023-10-30T09:04:22.577+0800] {processor.py:157} INFO - Started process (PID=27429) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:04:22.581+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:04:22.582+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:04:22.582+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:04:23.123+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:04:23.136+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:04:23.135+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:04:23.146+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:04:23.146+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:04:23.154+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.579 seconds
+[2023-10-30T09:04:53.649+0800] {processor.py:157} INFO - Started process (PID=27459) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:04:53.651+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:04:53.652+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:04:53.652+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:04:54.194+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:04:54.205+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:04:54.205+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:04:54.215+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:04:54.215+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:04:54.230+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.589 seconds
+[2023-10-30T09:05:24.665+0800] {processor.py:157} INFO - Started process (PID=27489) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:05:24.667+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:05:24.668+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:05:24.668+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:05:25.282+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:05:25.296+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:05:25.296+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:05:25.309+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:05:25.309+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:05:25.318+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.657 seconds
+[2023-10-30T09:05:55.755+0800] {processor.py:157} INFO - Started process (PID=27519) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:05:55.759+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:05:55.762+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:05:55.761+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:05:56.348+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:05:56.365+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:05:56.365+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:05:56.381+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:05:56.381+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:05:56.390+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.650 seconds
+[2023-10-30T09:06:26.803+0800] {processor.py:157} INFO - Started process (PID=27550) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:06:26.808+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:06:26.809+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:06:26.809+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:06:27.396+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:06:27.411+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:06:27.410+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:06:27.426+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:06:27.426+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:06:27.436+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.635 seconds
+[2023-10-30T09:06:57.885+0800] {processor.py:157} INFO - Started process (PID=27580) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:06:57.889+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:06:57.890+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:06:57.890+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:06:58.498+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:06:58.521+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:06:58.520+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:06:58.548+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:06:58.548+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:06:58.558+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.675 seconds
+[2023-10-30T09:07:29.039+0800] {processor.py:157} INFO - Started process (PID=27610) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:07:29.041+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:07:29.042+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:07:29.042+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:07:29.589+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:07:29.606+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:07:29.606+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:07:29.618+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:07:29.617+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:07:29.627+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.591 seconds
+[2023-10-30T09:08:00.111+0800] {processor.py:157} INFO - Started process (PID=27640) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:08:00.118+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:08:00.119+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:08:00.119+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:08:00.716+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:08:00.727+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:08:00.727+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:08:00.737+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:08:00.737+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:08:00.746+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.638 seconds
+[2023-10-30T09:08:31.163+0800] {processor.py:157} INFO - Started process (PID=27670) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:08:31.165+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:08:31.166+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:08:31.165+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:08:31.748+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:08:31.759+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:08:31.759+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:08:31.769+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:08:31.769+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:08:31.779+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.619 seconds
+[2023-10-30T09:09:02.259+0800] {processor.py:157} INFO - Started process (PID=27700) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:09:02.262+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:09:02.263+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:09:02.262+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:09:02.876+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:09:02.888+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:09:02.888+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:09:02.897+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:09:02.897+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:09:02.906+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.651 seconds
+[2023-10-30T09:09:33.387+0800] {processor.py:157} INFO - Started process (PID=27730) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:09:33.389+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:09:33.390+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:09:33.389+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:09:33.975+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:09:33.988+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:09:33.988+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:09:33.998+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:09:33.998+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:09:34.008+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.625 seconds
+[2023-10-30T09:10:04.551+0800] {processor.py:157} INFO - Started process (PID=27760) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:10:04.554+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:10:04.555+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:10:04.555+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:10:05.136+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:10:05.148+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:10:05.148+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:10:05.162+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:10:05.162+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:10:05.171+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.624 seconds
+[2023-10-30T09:10:35.747+0800] {processor.py:157} INFO - Started process (PID=27790) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:10:35.751+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:10:35.752+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:10:35.752+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:10:36.315+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:10:36.326+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:10:36.326+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:10:36.336+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:10:36.336+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:10:36.348+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.604 seconds
+[2023-10-30T09:11:06.877+0800] {processor.py:157} INFO - Started process (PID=27820) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:11:06.883+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:11:06.885+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:11:06.884+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:11:07.455+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:11:07.465+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:11:07.465+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:11:07.476+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:11:07.476+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:11:07.490+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.616 seconds
+[2023-10-30T09:11:38.044+0800] {processor.py:157} INFO - Started process (PID=27850) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:11:38.046+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:11:38.047+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:11:38.047+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:11:38.615+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:11:38.626+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:11:38.626+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:11:38.636+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:11:38.636+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:11:38.644+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.605 seconds
+[2023-10-30T09:12:09.202+0800] {processor.py:157} INFO - Started process (PID=27880) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:12:09.204+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:12:09.205+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:12:09.204+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:12:09.775+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:12:09.787+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:12:09.786+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:12:09.796+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:12:09.796+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:12:09.804+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.607 seconds
+[2023-10-30T09:12:40.267+0800] {processor.py:157} INFO - Started process (PID=27910) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:12:40.269+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:12:40.271+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:12:40.270+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:12:40.831+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:12:40.842+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:12:40.842+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:12:40.859+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:12:40.859+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:12:40.872+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.612 seconds
+[2023-10-30T09:13:11.417+0800] {processor.py:157} INFO - Started process (PID=27940) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:13:11.421+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:13:11.422+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:13:11.421+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:13:12.015+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:13:12.029+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:13:12.028+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:13:12.039+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:13:12.039+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:13:12.048+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.635 seconds
+[2023-10-30T09:13:42.588+0800] {processor.py:157} INFO - Started process (PID=27970) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:13:42.589+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:13:42.589+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:13:42.589+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:13:43.167+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:13:43.179+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:13:43.179+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:13:43.189+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:13:43.189+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:13:43.198+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.615 seconds
+[2023-10-30T09:14:13.705+0800] {processor.py:157} INFO - Started process (PID=28001) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:14:13.707+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:14:13.708+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:14:13.707+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:14:14.251+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:14:14.262+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:14:14.262+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:14:14.272+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:14:14.272+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:14:14.281+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.581 seconds
+[2023-10-30T09:14:44.671+0800] {processor.py:157} INFO - Started process (PID=28031) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:14:44.673+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:14:44.674+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:14:44.674+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:14:45.234+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:14:45.245+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:14:45.244+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:14:45.257+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:14:45.257+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:14:45.269+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.619 seconds
+[2023-10-30T09:15:15.783+0800] {processor.py:157} INFO - Started process (PID=28061) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:15:15.787+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:15:15.788+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:15:15.787+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:15:16.364+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:15:16.385+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:15:16.385+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:15:16.395+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:15:16.395+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:15:16.409+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.630 seconds
+[2023-10-30T09:15:46.916+0800] {processor.py:157} INFO - Started process (PID=28098) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:15:46.918+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:15:46.920+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:15:46.919+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:15:47.467+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:15:47.478+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:15:47.478+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:15:47.488+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:15:47.488+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:15:47.497+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.587 seconds
+[2023-10-30T09:16:17.939+0800] {processor.py:157} INFO - Started process (PID=28129) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:16:17.946+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:16:17.947+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:16:17.946+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:16:18.500+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:16:18.510+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:16:18.510+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:16:18.521+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:16:18.520+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:16:18.528+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.602 seconds
+[2023-10-30T09:16:48.938+0800] {processor.py:157} INFO - Started process (PID=28159) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:16:48.940+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:16:48.942+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:16:48.941+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:16:49.517+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:16:49.532+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:16:49.531+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:16:49.542+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:16:49.542+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:16:49.551+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.618 seconds
+[2023-10-30T09:17:20.053+0800] {processor.py:157} INFO - Started process (PID=28190) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:17:20.055+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:17:20.056+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:17:20.055+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:17:20.570+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:17:20.581+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:17:20.581+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:17:20.591+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:17:20.591+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:17:20.600+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.554 seconds
+[2023-10-30T09:17:51.104+0800] {processor.py:157} INFO - Started process (PID=28220) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:17:51.106+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:17:51.107+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:17:51.107+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:17:51.681+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:17:51.692+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:17:51.692+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:17:51.703+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:17:51.702+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:17:51.711+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.612 seconds
+[2023-10-30T09:18:22.226+0800] {processor.py:157} INFO - Started process (PID=28250) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:18:22.229+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:18:22.230+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:18:22.229+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:18:22.798+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:18:22.809+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:18:22.809+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:18:22.819+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:18:22.819+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:18:22.827+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.607 seconds
+[2023-10-30T09:18:53.383+0800] {processor.py:157} INFO - Started process (PID=28280) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:18:53.385+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:18:53.386+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:18:53.386+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:18:53.972+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:18:53.983+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:18:53.983+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:18:53.993+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:18:53.993+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:18:54.003+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.626 seconds
+[2023-10-30T09:19:24.511+0800] {processor.py:157} INFO - Started process (PID=28310) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:19:24.514+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:19:24.515+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:19:24.514+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:19:25.092+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:19:25.102+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:19:25.102+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:19:25.113+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:19:25.113+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:19:25.121+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.614 seconds
+[2023-10-30T09:19:55.622+0800] {processor.py:157} INFO - Started process (PID=28339) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:19:55.624+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:19:55.626+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:19:55.625+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:19:56.185+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:19:56.196+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:19:56.196+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:19:56.219+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:19:56.219+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:19:56.239+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.622 seconds
+[2023-10-30T09:20:26.708+0800] {processor.py:157} INFO - Started process (PID=28369) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:20:26.709+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:20:26.710+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:20:26.710+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:20:27.272+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:20:27.283+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:20:27.282+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:20:27.292+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:20:27.292+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:20:27.301+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.596 seconds
+[2023-10-30T09:20:57.812+0800] {processor.py:157} INFO - Started process (PID=28399) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:20:57.814+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:20:57.815+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:20:57.814+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:20:58.374+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:20:58.384+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:20:58.384+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:20:58.395+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:20:58.394+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:20:58.403+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.598 seconds
+[2023-10-30T09:21:28.868+0800] {processor.py:157} INFO - Started process (PID=28428) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:21:28.871+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:21:28.872+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:21:28.872+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:21:29.426+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:21:29.438+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:21:29.438+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:21:29.459+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:21:29.459+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:21:29.468+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.606 seconds
+[2023-10-30T09:22:00.011+0800] {processor.py:157} INFO - Started process (PID=28457) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:22:00.013+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:22:00.014+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:22:00.014+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:22:00.611+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:22:00.622+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:22:00.622+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:22:00.634+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:22:00.634+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:22:00.643+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.646 seconds
+[2023-10-30T09:22:31.139+0800] {processor.py:157} INFO - Started process (PID=28487) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:22:31.141+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:22:31.142+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:22:31.142+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:22:31.700+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:22:31.711+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:22:31.711+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:22:31.726+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:22:31.726+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:22:31.737+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.613 seconds
+[2023-10-30T09:23:02.251+0800] {processor.py:157} INFO - Started process (PID=28517) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:23:02.254+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:23:02.255+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:23:02.255+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:23:02.815+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:23:02.826+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:23:02.826+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:23:02.836+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:23:02.836+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:23:02.844+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.602 seconds
+[2023-10-30T09:23:33.327+0800] {processor.py:157} INFO - Started process (PID=28547) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:23:33.332+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:23:33.333+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:23:33.332+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:23:33.875+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:23:33.886+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:23:33.886+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:23:33.896+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:23:33.896+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:23:33.905+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.584 seconds
+[2023-10-30T09:24:04.477+0800] {processor.py:157} INFO - Started process (PID=28577) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:24:04.479+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:24:04.480+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:24:04.479+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:24:05.036+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:24:05.047+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:24:05.046+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:24:05.058+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:24:05.057+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:24:05.066+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.603 seconds
+[2023-10-30T09:24:35.664+0800] {processor.py:157} INFO - Started process (PID=28607) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:24:35.667+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:24:35.669+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:24:35.668+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:24:36.238+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:24:36.253+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:24:36.252+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:24:36.265+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:24:36.265+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:24:36.280+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.630 seconds
+[2023-10-30T09:25:06.789+0800] {processor.py:157} INFO - Started process (PID=28637) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:25:06.798+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:25:06.801+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:25:06.800+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:25:07.359+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:25:07.369+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:25:07.369+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:25:07.379+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:25:07.379+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:25:07.388+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.609 seconds
+[2023-10-30T09:25:37.901+0800] {processor.py:157} INFO - Started process (PID=28666) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:25:37.905+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:25:37.906+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:25:37.906+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:25:38.428+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:25:38.439+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:25:38.439+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:25:38.451+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:25:38.450+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:25:38.459+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.574 seconds
+[2023-10-30T09:26:09.039+0800] {processor.py:157} INFO - Started process (PID=28696) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:26:09.041+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:26:09.042+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:26:09.042+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:26:09.582+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:26:09.593+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:26:09.593+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:26:09.603+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:26:09.603+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:26:09.612+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.578 seconds
+[2023-10-30T09:26:39.994+0800] {processor.py:157} INFO - Started process (PID=28726) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:26:39.996+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:26:39.997+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:26:39.997+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:26:40.582+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:26:40.592+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:26:40.592+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:26:40.602+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:26:40.602+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:26:40.611+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.625 seconds
+[2023-10-30T09:27:11.125+0800] {processor.py:157} INFO - Started process (PID=28756) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:27:11.135+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:27:11.139+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:27:11.138+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:27:11.683+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:27:11.694+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:27:11.694+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:27:11.705+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:27:11.704+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:27:11.713+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.600 seconds
+[2023-10-30T09:27:42.188+0800] {processor.py:157} INFO - Started process (PID=28786) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:27:42.190+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:27:42.191+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:27:42.190+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:27:42.745+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:27:42.757+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:27:42.757+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:27:42.767+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:27:42.766+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:27:42.774+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.592 seconds
+[2023-10-30T09:28:13.338+0800] {processor.py:157} INFO - Started process (PID=28816) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:28:13.341+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:28:13.342+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:28:13.341+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:28:13.891+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:28:13.901+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:28:13.901+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:28:13.916+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:28:13.916+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:28:13.928+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.595 seconds
+[2023-10-30T09:28:44.421+0800] {processor.py:157} INFO - Started process (PID=28845) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:28:44.423+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:28:44.424+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:28:44.424+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:28:44.972+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:28:44.983+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:28:44.983+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:28:44.994+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:28:44.994+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:28:45.003+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.590 seconds
+[2023-10-30T09:29:15.551+0800] {processor.py:157} INFO - Started process (PID=28875) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:29:15.553+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:29:15.554+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:29:15.554+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:29:16.121+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:29:16.132+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:29:16.132+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:29:16.142+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:29:16.142+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:29:16.150+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.606 seconds
+[2023-10-30T09:29:46.727+0800] {processor.py:157} INFO - Started process (PID=28905) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:29:46.731+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:29:46.732+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:29:46.732+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:29:47.281+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:29:47.292+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:29:47.292+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:29:47.302+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:29:47.302+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:29:47.311+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.591 seconds
+[2023-10-30T09:30:17.834+0800] {processor.py:157} INFO - Started process (PID=28935) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:30:17.836+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:30:17.838+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:30:17.837+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:30:18.426+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:30:18.437+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:30:18.437+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:30:18.448+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:30:18.448+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:30:18.457+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.627 seconds
+[2023-10-30T09:30:48.957+0800] {processor.py:157} INFO - Started process (PID=28965) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:30:48.962+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:30:48.963+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:30:48.963+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:30:49.503+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:30:49.514+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:30:49.514+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:30:49.524+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:30:49.524+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:30:49.533+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.587 seconds
+[2023-10-30T09:31:19.973+0800] {processor.py:157} INFO - Started process (PID=28994) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:31:19.975+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:31:19.976+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:31:19.976+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:31:20.569+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:31:20.592+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:31:20.592+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:31:20.608+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:31:20.608+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:31:20.639+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.670 seconds
+[2023-10-30T09:31:51.163+0800] {processor.py:157} INFO - Started process (PID=29031) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:31:51.165+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:31:51.169+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:31:51.166+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:31:51.713+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:31:51.724+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:31:51.724+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:31:51.734+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:31:51.734+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:31:51.743+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.585 seconds
+[2023-10-30T09:32:22.207+0800] {processor.py:157} INFO - Started process (PID=29061) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:32:22.215+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:32:22.216+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:32:22.216+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:32:22.766+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:32:22.777+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:32:22.777+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:32:22.786+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:32:22.786+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:32:22.795+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.597 seconds
+[2023-10-30T09:32:53.283+0800] {processor.py:157} INFO - Started process (PID=29091) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:32:53.285+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:32:53.287+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:32:53.286+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:32:53.886+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:32:53.898+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:32:53.898+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:32:53.908+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:32:53.908+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:32:53.917+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.639 seconds
+[2023-10-30T09:33:24.291+0800] {processor.py:157} INFO - Started process (PID=29121) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:33:24.296+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:33:24.298+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:33:24.297+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:33:24.859+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:33:24.870+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:33:24.870+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:33:24.881+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:33:24.881+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:33:24.889+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.614 seconds
+[2023-10-30T09:33:55.420+0800] {processor.py:157} INFO - Started process (PID=29151) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:33:55.425+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:33:55.431+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:33:55.429+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:33:55.986+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:33:56.001+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:33:56.001+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:33:56.011+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:33:56.011+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:33:56.019+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.605 seconds
+[2023-10-30T09:34:26.521+0800] {processor.py:157} INFO - Started process (PID=29181) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:34:26.523+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:34:26.524+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:34:26.523+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:34:27.081+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:34:27.091+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:34:27.091+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:34:27.101+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:34:27.101+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:34:27.110+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.598 seconds
+[2023-10-30T09:34:57.636+0800] {processor.py:157} INFO - Started process (PID=29212) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:34:57.638+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:34:57.638+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:34:57.638+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:34:58.171+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:34:58.182+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:34:58.182+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:34:58.192+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:34:58.192+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:34:58.201+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.569 seconds
+[2023-10-30T09:35:28.724+0800] {processor.py:157} INFO - Started process (PID=29242) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:35:28.726+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:35:28.727+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:35:28.727+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:35:29.342+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:35:29.356+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:35:29.356+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:35:29.367+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:35:29.367+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:35:29.377+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.659 seconds
+[2023-10-30T09:35:59.861+0800] {processor.py:157} INFO - Started process (PID=29272) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:35:59.862+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:35:59.864+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:35:59.863+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:36:00.431+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:36:00.441+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:36:00.441+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:36:00.451+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:36:00.451+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:36:00.466+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.608 seconds
+[2023-10-30T09:36:30.993+0800] {processor.py:157} INFO - Started process (PID=29302) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:36:30.996+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:36:30.997+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:36:30.996+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:36:31.547+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:36:31.558+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:36:31.558+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:36:31.569+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:36:31.569+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:36:31.577+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.588 seconds
+[2023-10-30T09:37:02.104+0800] {processor.py:157} INFO - Started process (PID=29332) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:37:02.109+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:37:02.110+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:37:02.110+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:37:02.648+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:37:02.660+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:37:02.660+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:37:02.670+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:37:02.670+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:37:02.684+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.585 seconds
+[2023-10-30T09:37:33.238+0800] {processor.py:157} INFO - Started process (PID=29363) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:37:33.240+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:37:33.241+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:37:33.240+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:37:33.778+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:37:33.790+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:37:33.790+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:37:33.801+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:37:33.800+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:37:33.809+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.575 seconds
+[2023-10-30T09:38:04.293+0800] {processor.py:157} INFO - Started process (PID=29392) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:38:04.295+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:38:04.295+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:38:04.295+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:38:04.871+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:38:04.882+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:38:04.882+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:38:04.893+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:38:04.893+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:38:04.901+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.611 seconds
+[2023-10-30T09:38:35.383+0800] {processor.py:157} INFO - Started process (PID=29422) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:38:35.385+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:38:35.389+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:38:35.387+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:38:35.985+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:38:36.005+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:38:36.004+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:38:36.020+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:38:36.020+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:38:36.033+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.653 seconds
+[2023-10-30T09:39:06.535+0800] {processor.py:157} INFO - Started process (PID=29452) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:39:06.543+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:39:06.544+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:39:06.544+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:39:07.119+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:39:07.131+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:39:07.131+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:39:07.141+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:39:07.141+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:39:07.151+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.625 seconds
+[2023-10-30T09:39:37.666+0800] {processor.py:157} INFO - Started process (PID=29482) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:39:37.670+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:39:37.671+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:39:37.671+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:39:38.253+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:39:38.264+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:39:38.264+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:39:38.274+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:39:38.274+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:39:38.283+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.624 seconds
+[2023-10-30T09:40:08.791+0800] {processor.py:157} INFO - Started process (PID=29512) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:40:08.794+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:40:08.800+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:40:08.797+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:40:09.344+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:40:09.355+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:40:09.355+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:40:09.365+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:40:09.365+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:40:09.374+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.586 seconds
+[2023-10-30T09:40:39.806+0800] {processor.py:157} INFO - Started process (PID=29543) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:40:39.808+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:40:39.809+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:40:39.808+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:40:40.378+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:40:40.389+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:40:40.389+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:40:40.399+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:40:40.399+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:40:40.409+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.606 seconds
+[2023-10-30T09:41:10.841+0800] {processor.py:157} INFO - Started process (PID=29573) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:41:10.843+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:41:10.843+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:41:10.843+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:41:11.412+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:41:11.423+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:41:11.423+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:41:11.434+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:41:11.434+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:41:11.443+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.604 seconds
+[2023-10-30T09:41:41.948+0800] {processor.py:157} INFO - Started process (PID=29603) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:41:41.952+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:41:41.954+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:41:41.953+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:41:42.545+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:41:42.557+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:41:42.557+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:41:42.567+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:41:42.567+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:41:42.575+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.631 seconds
+[2023-10-30T09:42:13.149+0800] {processor.py:157} INFO - Started process (PID=29633) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:42:13.156+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:42:13.158+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:42:13.157+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:42:13.731+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:42:13.741+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:42:13.741+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:42:13.751+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:42:13.751+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:42:13.760+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.620 seconds
+[2023-10-30T09:42:44.246+0800] {processor.py:157} INFO - Started process (PID=29663) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:42:44.248+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:42:44.249+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:42:44.249+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:42:44.797+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:42:44.809+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:42:44.809+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:42:44.820+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:42:44.820+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:42:44.829+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.588 seconds
+[2023-10-30T09:43:15.312+0800] {processor.py:157} INFO - Started process (PID=29693) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:43:15.316+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:43:15.317+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:43:15.316+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:43:15.891+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:43:15.906+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:43:15.906+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:43:15.916+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:43:15.916+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:43:15.925+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.616 seconds
+[2023-10-30T09:43:46.571+0800] {processor.py:157} INFO - Started process (PID=29723) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:43:46.573+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:43:46.574+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:43:46.574+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:43:47.196+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:43:47.208+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:43:47.207+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:43:47.219+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:43:47.219+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:43:47.229+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.660 seconds
+[2023-10-30T09:44:17.699+0800] {processor.py:157} INFO - Started process (PID=29753) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:44:17.700+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:44:17.701+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:44:17.701+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:44:18.287+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:44:18.297+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:44:18.297+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:44:18.308+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:44:18.308+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:44:18.317+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.621 seconds
+[2023-10-30T09:44:48.837+0800] {processor.py:157} INFO - Started process (PID=29783) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:44:48.840+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:44:48.841+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:44:48.840+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:44:49.392+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:44:49.403+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:44:49.403+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:44:49.413+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:44:49.413+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:44:49.421+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.588 seconds
+[2023-10-30T09:45:19.986+0800] {processor.py:157} INFO - Started process (PID=29813) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:45:19.991+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:45:19.992+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:45:19.991+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:45:20.668+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:45:20.688+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:45:20.687+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:45:20.701+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:45:20.701+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:45:20.723+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.741 seconds
+[2023-10-30T09:45:50.970+0800] {processor.py:157} INFO - Started process (PID=29843) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:45:50.972+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:45:50.975+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:45:50.973+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:45:51.547+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:45:51.557+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:45:51.557+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:45:51.568+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:45:51.568+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:45:51.576+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.613 seconds
+[2023-10-30T09:46:22.049+0800] {processor.py:157} INFO - Started process (PID=29873) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:46:22.058+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:46:22.060+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:46:22.059+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:46:22.623+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:46:22.635+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:46:22.634+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:46:22.645+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:46:22.645+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:46:22.653+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.614 seconds
+[2023-10-30T09:46:53.262+0800] {processor.py:157} INFO - Started process (PID=29903) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:46:53.269+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:46:53.271+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:46:53.270+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:46:53.823+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:46:53.834+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:46:53.834+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:46:53.844+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:46:53.844+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:46:53.853+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.599 seconds
+[2023-10-30T09:47:24.329+0800] {processor.py:157} INFO - Started process (PID=29933) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:47:24.332+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:47:24.334+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:47:24.334+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:47:24.933+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:47:24.944+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:47:24.944+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:47:24.955+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:47:24.955+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:47:24.963+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.657 seconds
+[2023-10-30T09:47:55.458+0800] {processor.py:157} INFO - Started process (PID=29969) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:47:55.460+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:47:55.461+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:47:55.461+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:47:56.022+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:47:56.034+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:47:56.034+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:47:56.044+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:47:56.044+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:47:56.053+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.600 seconds
+[2023-10-30T09:48:26.610+0800] {processor.py:157} INFO - Started process (PID=29998) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:48:26.614+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:48:26.615+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:48:26.614+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:48:27.146+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:48:27.157+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:48:27.156+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:48:27.167+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:48:27.167+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:48:27.175+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.570 seconds
+[2023-10-30T09:48:57.677+0800] {processor.py:157} INFO - Started process (PID=30028) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:48:57.684+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:48:57.687+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:48:57.686+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:48:58.226+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:48:58.250+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:48:58.250+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:48:58.263+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:48:58.263+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:48:58.271+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.607 seconds
+[2023-10-30T09:49:28.808+0800] {processor.py:157} INFO - Started process (PID=30058) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:49:28.810+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:49:28.811+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:49:28.810+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:49:29.363+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:49:29.380+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:49:29.379+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:49:29.392+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:49:29.391+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:49:29.400+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.598 seconds
+[2023-10-30T09:50:00.080+0800] {processor.py:157} INFO - Started process (PID=30088) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:50:00.082+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:50:00.083+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:50:00.083+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:50:00.645+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:50:00.657+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:50:00.657+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:50:00.676+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:50:00.676+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:50:00.685+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.611 seconds
+[2023-10-30T09:50:31.262+0800] {processor.py:157} INFO - Started process (PID=30118) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:50:31.264+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:50:31.265+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:50:31.264+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:50:31.821+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:50:31.832+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:50:31.832+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:50:31.843+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:50:31.842+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:50:31.851+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.594 seconds
+[2023-10-30T09:51:02.254+0800] {processor.py:157} INFO - Started process (PID=30148) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:51:02.257+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:51:02.258+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:51:02.258+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:51:02.808+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:51:02.819+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:51:02.819+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:51:02.829+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:51:02.829+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:51:02.837+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.600 seconds
+[2023-10-30T09:51:33.032+0800] {processor.py:157} INFO - Started process (PID=30178) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:51:33.037+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:51:33.040+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:51:33.039+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:51:34.173+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:51:34.210+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:51:34.210+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:51:34.244+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:51:34.244+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:51:34.267+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 1.251 seconds
+[2023-10-30T09:58:17.424+0800] {processor.py:157} INFO - Started process (PID=30201) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:58:17.426+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:58:17.428+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:58:17.427+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:58:17.996+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:58:18.010+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:58:18.009+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:58:18.033+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:58:18.033+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:58:18.063+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.646 seconds
+[2023-10-30T09:58:48.434+0800] {processor.py:157} INFO - Started process (PID=30240) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:58:48.437+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:58:48.438+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:58:48.437+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:58:48.816+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:58:48.831+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:58:48.831+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:58:48.843+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:58:48.843+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:58:48.852+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.422 seconds
+[2023-10-30T09:59:19.466+0800] {processor.py:157} INFO - Started process (PID=30270) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:59:19.469+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:59:19.471+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:59:19.471+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:59:20.192+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:59:20.220+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:59:20.220+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:59:20.249+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:59:20.249+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:59:20.263+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.803 seconds
+[2023-10-30T09:59:50.668+0800] {processor.py:157} INFO - Started process (PID=30302) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:59:50.669+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T09:59:50.670+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:59:50.669+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:59:51.031+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T09:59:51.041+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:59:51.041+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T09:59:51.052+0800] {logging_mixin.py:151} INFO - [2023-10-30T09:59:51.052+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T09:59:51.064+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.399 seconds
+[2023-10-30T10:00:21.145+0800] {processor.py:157} INFO - Started process (PID=30332) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:00:21.147+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:00:21.147+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:00:21.147+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:00:21.393+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:00:21.407+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:00:21.407+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:00:21.419+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:00:21.419+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:00:21.432+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.290 seconds
+[2023-10-30T10:00:51.476+0800] {processor.py:157} INFO - Started process (PID=30365) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:00:51.478+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:00:51.479+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:00:51.479+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:00:51.738+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:00:51.749+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:00:51.749+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:00:51.760+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:00:51.760+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:00:51.770+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.297 seconds
+[2023-10-30T10:01:22.284+0800] {processor.py:157} INFO - Started process (PID=30388) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:01:22.286+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:01:22.287+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:01:22.287+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:01:22.706+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:01:22.718+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:01:22.718+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:01:22.730+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:01:22.730+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:01:22.739+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.460 seconds
+[2023-10-30T10:01:53.205+0800] {processor.py:157} INFO - Started process (PID=30418) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:01:53.206+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:01:53.207+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:01:53.206+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:01:53.512+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:01:53.524+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:01:53.523+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:01:53.534+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:01:53.534+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:01:53.542+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.339 seconds
+[2023-10-30T10:02:23.988+0800] {processor.py:157} INFO - Started process (PID=30447) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:02:23.991+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:02:23.992+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:02:23.992+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:02:24.371+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:02:24.383+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:02:24.383+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:02:24.395+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:02:24.395+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:02:24.404+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.419 seconds
+[2023-10-30T10:02:54.863+0800] {processor.py:157} INFO - Started process (PID=30477) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:02:54.865+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:02:54.865+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:02:54.865+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:02:55.238+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:02:55.251+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:02:55.251+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:02:55.263+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:02:55.263+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:02:55.272+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.412 seconds
+[2023-10-30T10:03:25.766+0800] {processor.py:157} INFO - Started process (PID=30507) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:03:25.771+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:03:25.772+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:03:25.771+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:03:26.146+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:03:26.158+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:03:26.158+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:03:26.169+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:03:26.169+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:03:26.179+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.419 seconds
+[2023-10-30T10:03:56.643+0800] {processor.py:157} INFO - Started process (PID=30537) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:03:56.647+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:03:56.648+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:03:56.648+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:03:57.059+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:03:57.075+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:03:57.074+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:03:57.095+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:03:57.094+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:03:57.108+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.469 seconds
+[2023-10-30T10:04:27.270+0800] {processor.py:157} INFO - Started process (PID=30567) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:04:27.274+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:04:27.275+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:04:27.275+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:04:27.787+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:04:27.802+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:04:27.801+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:04:27.815+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:04:27.815+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:04:27.832+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.570 seconds
+[2023-10-30T10:04:58.552+0800] {processor.py:157} INFO - Started process (PID=30597) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:04:58.555+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:04:58.556+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:04:58.555+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:04:58.939+0800] {processor.py:839} INFO - DAG(s) dict_keys(['stock_data_crawler']) retrieved from /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:04:58.955+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:04:58.955+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-30T10:04:58.967+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:04:58.967+0800] {dag.py:3696} INFO - Setting next_dagrun for stock_data_crawler to 2023-10-27T18:00:00+00:00, run_after=2023-10-30T18:00:00+00:00
+[2023-10-30T10:04:58.977+0800] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_data_crawler.py took 0.431 seconds
+[2023-10-30T10:05:29.527+0800] {processor.py:157} INFO - Started process (PID=30628) to work on /opt/airflow/dags/stock_data_crawler.py
+[2023-10-30T10:05:29.549+0800] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_data_crawler.py for tasks to queue
+[2023-10-30T10:05:29.550+0800] {logging_mixin.py:151} INFO - [2023-10-30T10:05:29.550+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_data_crawler.py

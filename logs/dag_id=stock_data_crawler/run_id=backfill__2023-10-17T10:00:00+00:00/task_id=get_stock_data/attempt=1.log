@@ -1,0 +1,18 @@
+[2023-10-25T20:49:02.152+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_crawler.get_stock_data backfill__2023-10-17T10:00:00+00:00 [queued]>
+[2023-10-25T20:49:02.159+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_crawler.get_stock_data backfill__2023-10-17T10:00:00+00:00 [queued]>
+[2023-10-25T20:49:02.159+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-25T20:49:02.167+0800] {taskinstance.py:1382} INFO - Executing <Task(BranchPythonOperator): get_stock_data> on 2023-10-17 10:00:00+00:00
+[2023-10-25T20:49:02.172+0800] {standard_task_runner.py:57} INFO - Started process 1393 to run task
+[2023-10-25T20:49:02.175+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_data_crawler', 'get_stock_data', 'backfill__2023-10-17T10:00:00+00:00', '--job-id', '473', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/stock_data_crawler.py', '--cfg-path', '/tmp/tmpkqx3g1nk']
+[2023-10-25T20:49:02.177+0800] {standard_task_runner.py:85} INFO - Job 473: Subtask get_stock_data
+[2023-10-25T20:49:02.206+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_data_crawler.get_stock_data backfill__2023-10-17T10:00:00+00:00 [running]> on host ccc543b0588a
+[2023-10-25T20:49:02.267+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_data_crawler' AIRFLOW_CTX_TASK_ID='get_stock_data' AIRFLOW_CTX_EXECUTION_DATE='2023-10-17T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='backfill__2023-10-17T10:00:00+00:00'
+[2023-10-25T20:49:02.268+0800] {logging_mixin.py:151} INFO - 2023-10-18
+[2023-10-25T20:49:09.914+0800] {logging_mixin.py:151} INFO - /opt/***/data/stock_data_2023-10-18.csv
+[2023-10-25T20:49:09.999+0800] {python.py:194} INFO - Done. Returned value was: upload_to_db
+[2023-10-25T20:49:10.000+0800] {python.py:227} INFO - Branch callable return upload_to_db
+[2023-10-25T20:49:10.000+0800] {skipmixin.py:173} INFO - Following branch upload_to_db
+[2023-10-25T20:49:10.013+0800] {skipmixin.py:239} INFO - Skipping tasks [('do_nothing', -1)]
+[2023-10-25T20:49:10.040+0800] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stock_data_crawler, task_id=get_stock_data, execution_date=20231017T100000, start_date=20231025T124902, end_date=20231025T124910
+[2023-10-25T20:49:10.079+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T20:49:10.117+0800] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

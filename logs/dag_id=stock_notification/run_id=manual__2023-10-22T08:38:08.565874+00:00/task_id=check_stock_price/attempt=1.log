@@ -1,0 +1,13 @@
+[2023-10-22T16:43:09.978+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_notification.check_stock_price manual__2023-10-22T08:38:08.565874+00:00 [queued]>
+[2023-10-22T16:43:09.983+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_notification.check_stock_price manual__2023-10-22T08:38:08.565874+00:00 [queued]>
+[2023-10-22T16:43:09.983+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-10-22T16:43:09.991+0800] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_stock_price> on 2023-10-22 08:38:08.565874+00:00
+[2023-10-22T16:43:09.999+0800] {standard_task_runner.py:57} INFO - Started process 3617 to run task
+[2023-10-22T16:43:10.003+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_notification', 'check_stock_price', 'manual__2023-10-22T08:38:08.565874+00:00', '--job-id', '230', '--raw', '--subdir', 'DAGS_FOLDER/stock_notification.py', '--cfg-path', '/tmp/tmphix4tr5y']
+[2023-10-22T16:43:10.006+0800] {standard_task_runner.py:85} INFO - Job 230: Subtask check_stock_price
+[2023-10-22T16:43:10.028+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_notification.check_stock_price manual__2023-10-22T08:38:08.565874+00:00 [running]> on host 6a6999315df3
+[2023-10-22T16:43:10.060+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_notification' AIRFLOW_CTX_TASK_ID='check_stock_price' AIRFLOW_CTX_EXECUTION_DATE='2023-10-22T08:38:08.565874+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-22T08:38:08.565874+00:00'
+[2023-10-22T16:43:10.182+0800] {python.py:194} INFO - Done. Returned value was: ['0050', '0056']
+[2023-10-22T16:43:10.200+0800] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stock_notification, task_id=check_stock_price, execution_date=20231022T083808, start_date=20231022T084309, end_date=20231022T084310
+[2023-10-22T16:43:10.215+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-22T16:43:10.230+0800] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

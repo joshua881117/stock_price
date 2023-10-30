@@ -1,0 +1,14 @@
+[2023-10-25T16:55:23.889+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_crawler.upload_to_db backfill__2023-08-22T10:00:00+00:00 [queued]>
+[2023-10-25T16:55:23.894+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_crawler.upload_to_db backfill__2023-08-22T10:00:00+00:00 [queued]>
+[2023-10-25T16:55:23.895+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-25T16:55:23.909+0800] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): upload_to_db> on 2023-08-22 10:00:00+00:00
+[2023-10-25T16:55:23.920+0800] {standard_task_runner.py:57} INFO - Started process 1145 to run task
+[2023-10-25T16:55:23.924+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_data_crawler', 'upload_to_db', 'backfill__2023-08-22T10:00:00+00:00', '--job-id', '429', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/stock_data_crawler.py', '--cfg-path', '/tmp/tmp1e8dm3iw']
+[2023-10-25T16:55:23.928+0800] {standard_task_runner.py:85} INFO - Job 429: Subtask upload_to_db
+[2023-10-25T16:55:23.967+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_data_crawler.upload_to_db backfill__2023-08-22T10:00:00+00:00 [running]> on host ccc543b0588a
+[2023-10-25T16:55:24.016+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_data_crawler' AIRFLOW_CTX_TASK_ID='upload_to_db' AIRFLOW_CTX_EXECUTION_DATE='2023-08-22T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='backfill__2023-08-22T10:00:00+00:00'
+[2023-10-25T16:55:24.017+0800] {logging_mixin.py:151} INFO - /opt/***/data/stock_data_2023-08-22.csv
+[2023-10-25T16:55:25.628+0800] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-25T16:55:25.666+0800] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stock_data_crawler, task_id=upload_to_db, execution_date=20230822T100000, start_date=20231025T085523, end_date=20231025T085525
+[2023-10-25T16:55:25.747+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T16:55:25.784+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

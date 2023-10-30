@@ -1,0 +1,21 @@
+[2023-10-22T17:08:45.275+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T09:08:41.026989+00:00 [queued]>
+[2023-10-22T17:08:45.282+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T09:08:41.026989+00:00 [queued]>
+[2023-10-22T17:08:45.283+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-10-22T17:08:45.301+0800] {taskinstance.py:1382} INFO - Executing <Task(BranchDayOfWeekOperator): make_weekend_choice> on 2023-10-22 09:08:41.026989+00:00
+[2023-10-22T17:08:45.313+0800] {standard_task_runner.py:57} INFO - Started process 82 to run task
+[2023-10-22T17:08:45.319+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_notification', 'make_weekend_choice', 'manual__2023-10-22T09:08:41.026989+00:00', '--job-id', '244', '--raw', '--subdir', 'DAGS_FOLDER/stock_notification.py', '--cfg-path', '/tmp/tmpoukpbfjd']
+[2023-10-22T17:08:45.323+0800] {standard_task_runner.py:85} INFO - Job 244: Subtask make_weekend_choice
+[2023-10-22T17:08:45.387+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T09:08:41.026989+00:00 [running]> on host 723509d7178c
+[2023-10-22T17:08:45.455+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_notification' AIRFLOW_CTX_TASK_ID='make_weekend_choice' AIRFLOW_CTX_EXECUTION_DATE='2023-10-22T09:08:41.026989+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-22T09:08:41.026989+00:00'
+[2023-10-22T17:08:45.458+0800] {skipmixin.py:173} INFO - Following branch get_stock_pricea
+[2023-10-22T17:08:45.462+0800] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/branch.py", line 55, in execute
+    self.skip_all_except(context["ti"], branches_to_execute)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/skipmixin.py", line 208, in skip_all_except
+    raise AirflowException(
+airflow.exceptions.AirflowException: 'branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'get_stock_pricea'}.
+[2023-10-22T17:08:45.465+0800] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=stock_notification, task_id=make_weekend_choice, execution_date=20231022T090841, start_date=20231022T090845, end_date=20231022T090845
+[2023-10-22T17:08:45.474+0800] {standard_task_runner.py:104} ERROR - Failed to execute job 244 for task make_weekend_choice ('branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'get_stock_pricea'}.; 82)
+[2023-10-22T17:08:45.492+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-22T17:08:45.519+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

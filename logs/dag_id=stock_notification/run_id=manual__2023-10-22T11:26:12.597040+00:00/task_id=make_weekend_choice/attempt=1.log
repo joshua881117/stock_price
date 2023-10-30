@@ -1,0 +1,14 @@
+[2023-10-22T19:26:14.772+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T11:26:12.597040+00:00 [queued]>
+[2023-10-22T19:26:14.781+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T11:26:12.597040+00:00 [queued]>
+[2023-10-22T19:26:14.781+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-22T19:26:14.791+0800] {taskinstance.py:1382} INFO - Executing <Task(BranchDayOfWeekOperator): make_weekend_choice> on 2023-10-22 11:26:12.597040+00:00
+[2023-10-22T19:26:14.797+0800] {standard_task_runner.py:57} INFO - Started process 56 to run task
+[2023-10-22T19:26:14.800+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_notification', 'make_weekend_choice', 'manual__2023-10-22T11:26:12.597040+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/stock_notification.py', '--cfg-path', '/tmp/tmpy0ahdfij']
+[2023-10-22T19:26:14.802+0800] {standard_task_runner.py:85} INFO - Job 3: Subtask make_weekend_choice
+[2023-10-22T19:26:14.827+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_notification.make_weekend_choice manual__2023-10-22T11:26:12.597040+00:00 [running]> on host 932d98ab0d02
+[2023-10-22T19:26:14.856+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_notification' AIRFLOW_CTX_TASK_ID='make_weekend_choice' AIRFLOW_CTX_EXECUTION_DATE='2023-10-22T11:26:12.597040+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-22T11:26:12.597040+00:00'
+[2023-10-22T19:26:14.857+0800] {skipmixin.py:173} INFO - Following branch market_closed
+[2023-10-22T19:26:14.863+0800] {skipmixin.py:239} INFO - Skipping tasks [('get_stock_price', -1)]
+[2023-10-22T19:26:14.878+0800] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stock_notification, task_id=make_weekend_choice, execution_date=20231022T112612, start_date=20231022T112614, end_date=20231022T112614
+[2023-10-22T19:26:14.891+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-22T19:26:14.911+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

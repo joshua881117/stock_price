@@ -1,0 +1,12 @@
+[2023-10-25T15:28:25.336+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_crawler.do_nothing backfill__2023-09-30T10:00:00+00:00 [queued]>
+[2023-10-25T15:28:25.342+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_crawler.do_nothing backfill__2023-09-30T10:00:00+00:00 [queued]>
+[2023-10-25T15:28:25.342+0800] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-25T15:28:25.351+0800] {taskinstance.py:1382} INFO - Executing <Task(EmptyOperator): do_nothing> on 2023-09-30 10:00:00+00:00
+[2023-10-25T15:28:25.357+0800] {standard_task_runner.py:57} INFO - Started process 1929 to run task
+[2023-10-25T15:28:25.361+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_data_crawler', 'do_nothing', 'backfill__2023-09-30T10:00:00+00:00', '--job-id', '325', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/stock_data_crawler.py', '--cfg-path', '/tmp/tmpxmvpw2bz']
+[2023-10-25T15:28:25.363+0800] {standard_task_runner.py:85} INFO - Job 325: Subtask do_nothing
+[2023-10-25T15:28:25.410+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_data_crawler.do_nothing backfill__2023-09-30T10:00:00+00:00 [running]> on host d9341a59eebf
+[2023-10-25T15:28:25.446+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_data_crawler' AIRFLOW_CTX_TASK_ID='do_nothing' AIRFLOW_CTX_EXECUTION_DATE='2023-09-30T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='backfill__2023-09-30T10:00:00+00:00'
+[2023-10-25T15:28:25.449+0800] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stock_data_crawler, task_id=do_nothing, execution_date=20230930T100000, start_date=20231025T072825, end_date=20231025T072825
+[2023-10-25T15:28:25.493+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-25T15:28:25.503+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

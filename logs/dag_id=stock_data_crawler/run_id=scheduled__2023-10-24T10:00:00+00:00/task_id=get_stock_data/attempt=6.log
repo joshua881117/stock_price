@@ -1,0 +1,24 @@
+[2023-10-25T20:36:35.146+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_crawler.get_stock_data scheduled__2023-10-24T10:00:00+00:00 [queued]>
+[2023-10-25T20:36:35.152+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_crawler.get_stock_data scheduled__2023-10-24T10:00:00+00:00 [queued]>
+[2023-10-25T20:36:35.152+0800] {taskinstance.py:1361} INFO - Starting attempt 6 of 7
+[2023-10-25T20:36:35.161+0800] {taskinstance.py:1382} INFO - Executing <Task(BranchPythonOperator): get_stock_data> on 2023-10-24 10:00:00+00:00
+[2023-10-25T20:36:35.170+0800] {standard_task_runner.py:57} INFO - Started process 3999 to run task
+[2023-10-25T20:36:35.173+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_data_crawler', 'get_stock_data', 'scheduled__2023-10-24T10:00:00+00:00', '--job-id', '454', '--raw', '--subdir', 'DAGS_FOLDER/stock_data_crawler.py', '--cfg-path', '/tmp/tmpntnvc24q']
+[2023-10-25T20:36:35.176+0800] {standard_task_runner.py:85} INFO - Job 454: Subtask get_stock_data
+[2023-10-25T20:36:35.225+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_data_crawler.get_stock_data scheduled__2023-10-24T10:00:00+00:00 [running]> on host bb5c9ebbc514
+[2023-10-25T20:36:35.293+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_data_crawler' AIRFLOW_CTX_TASK_ID='get_stock_data' AIRFLOW_CTX_EXECUTION_DATE='2023-10-24T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-24T10:00:00+00:00'
+[2023-10-25T20:36:35.295+0800] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 226, in execute
+    branch = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stock_data_crawler.py", line 28, in get_data
+    logical_date = dt.datetime.strptime(logical_date, '%Y-%m-%d')
+TypeError: strptime() argument 1 must be str, not datetime.datetime
+[2023-10-25T20:36:35.299+0800] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=stock_data_crawler, task_id=get_stock_data, execution_date=20231024T100000, start_date=20231025T123635, end_date=20231025T123635
+[2023-10-25T20:36:35.306+0800] {standard_task_runner.py:104} ERROR - Failed to execute job 454 for task get_stock_data (strptime() argument 1 must be str, not datetime.datetime; 3999)
+[2023-10-25T20:36:35.347+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-25T20:36:35.373+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

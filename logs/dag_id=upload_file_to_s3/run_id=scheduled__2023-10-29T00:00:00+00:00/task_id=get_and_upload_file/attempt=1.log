@@ -1,0 +1,16 @@
+[2023-10-30T08:04:48.077+0800] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: upload_file_to_s3.get_and_upload_file scheduled__2023-10-29T00:00:00+00:00 [queued]>
+[2023-10-30T08:04:48.085+0800] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: upload_file_to_s3.get_and_upload_file scheduled__2023-10-29T00:00:00+00:00 [queued]>
+[2023-10-30T08:04:48.087+0800] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-30T08:04:48.118+0800] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): get_and_upload_file> on 2023-10-29 00:00:00+00:00
+[2023-10-30T08:04:48.131+0800] {standard_task_runner.py:57} INFO - Started process 26437 to run task
+[2023-10-30T08:04:48.135+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'upload_file_to_s3', 'get_and_upload_file', 'scheduled__2023-10-29T00:00:00+00:00', '--job-id', '694', '--raw', '--subdir', 'DAGS_FOLDER/upload_file_to_s3.py', '--cfg-path', '/tmp/tmpriaz04d_']
+[2023-10-30T08:04:48.138+0800] {standard_task_runner.py:85} INFO - Job 694: Subtask get_and_upload_file
+[2023-10-30T08:04:48.180+0800] {task_command.py:415} INFO - Running <TaskInstance: upload_file_to_s3.get_and_upload_file scheduled__2023-10-29T00:00:00+00:00 [running]> on host 9a28c8ad9082
+[2023-10-30T08:04:48.248+0800] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='upload_file_to_s3' AIRFLOW_CTX_TASK_ID='get_and_upload_file' AIRFLOW_CTX_EXECUTION_DATE='2023-10-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-29T00:00:00+00:00'
+[2023-10-30T08:04:54.699+0800] {base.py:73} INFO - Using connection ID 'minio_conn' for task execution.
+[2023-10-30T08:04:54.701+0800] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='minio_conn', conn_type='aws') credentials retrieved from login and password.
+[2023-10-30T08:04:55.028+0800] {upload_file_to_s3.py:34} INFO - Success upload /tmp/tmp1gf10wk52023-10-30.csv file to S3
+[2023-10-30T08:04:55.029+0800] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-30T08:04:55.038+0800] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=upload_file_to_s3, task_id=get_and_upload_file, execution_date=20231029T000000, start_date=20231030T000448, end_date=20231030T000455
+[2023-10-30T08:04:55.093+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-30T08:04:55.115+0800] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

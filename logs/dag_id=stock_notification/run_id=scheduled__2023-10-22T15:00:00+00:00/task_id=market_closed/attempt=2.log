@@ -1,0 +1,33 @@
+[2023-10-23T00:14:41.963+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_notification.market_closed scheduled__2023-10-22T15:00:00+00:00 [queued]>
+[2023-10-23T00:14:41.971+0800] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_notification.market_closed scheduled__2023-10-22T15:00:00+00:00 [queued]>
+[2023-10-23T00:14:41.971+0800] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2023-10-23T00:14:41.979+0800] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): market_closed> on 2023-10-22 15:00:00+00:00
+[2023-10-23T00:14:41.988+0800] {standard_task_runner.py:57} INFO - Started process 1234 to run task
+[2023-10-23T00:14:41.998+0800] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'stock_notification', 'market_closed', 'scheduled__2023-10-22T15:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/stock_notification.py', '--cfg-path', '/tmp/tmp96v00eq6']
+[2023-10-23T00:14:42.003+0800] {standard_task_runner.py:85} INFO - Job 28: Subtask market_closed
+[2023-10-23T00:14:42.039+0800] {task_command.py:416} INFO - Running <TaskInstance: stock_notification.market_closed scheduled__2023-10-22T15:00:00+00:00 [running]> on host 68cd3dbad64f
+[2023-10-23T00:14:42.080+0800] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='joshua881117@gmail.com' AIRFLOW_CTX_DAG_OWNER='Joshua Lin' AIRFLOW_CTX_DAG_ID='stock_notification' AIRFLOW_CTX_TASK_ID='market_closed' AIRFLOW_CTX_EXECUTION_DATE='2023-10-22T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-22T15:00:00+00:00'
+[2023-10-23T00:14:42.085+0800] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/stock_notification.py", line 83, in send_market_closed_message
+    send_message_to_slack(
+  File "/opt/airflow/dags/stock_app/stock_functions.py", line 56, in send_message_to_slack
+    client, channel_id = connect_to_slack(channel, app_name)
+  File "/opt/airflow/dags/stock_app/stock_functions.py", line 33, in connect_to_slack
+    oauth_token = Variable.get(app_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable stock_notify does not exist'
+[2023-10-23T00:14:42.095+0800] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=stock_notification, task_id=market_closed, execution_date=20231022T150000, start_date=20231022T161441, end_date=20231022T161442
+[2023-10-23T00:14:42.106+0800] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-10-23T00:14:42.106+0800] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-23T00:14:43.464+0800] {email.py:281} INFO - Sent an alert email to ['joshua881117@gmail.com']
+[2023-10-23T00:14:45.185+0800] {standard_task_runner.py:104} ERROR - Failed to execute job 28 for task market_closed ('Variable stock_notify does not exist'; 1234)
+[2023-10-23T00:14:45.225+0800] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-23T00:14:45.252+0800] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
