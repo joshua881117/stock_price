@@ -1,0 +1,9 @@
+# 忽略所有附檔名是 .ipynb 的檔案
+*.ipynb
+
+airflow.sh
+
+logs
+
+.ipynb_checkpoints
+dags/.ipynb_checkpoints
