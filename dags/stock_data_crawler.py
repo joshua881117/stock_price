@@ -9,9 +9,10 @@ import datetime as dt
 from crawler.stock_crawler import crawler_twse
 from backend import db
 from backend.db import db_executor
-from stock_app.stock_functions import send_message_to_slack
+from stock_app.stock_functions import send_message_to_slack, upload_data_to_bigquery, is_data_uploaded
 
 import os
+from loguru import logger
 
 default_args = {
     'owner': 'Joshua Lin',
@@ -46,17 +47,25 @@ def upload_data(**kwargs):
     logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
     date = params.get('date', str(logical_date))
 
-    r = db.get_db_router()
+    # r = db.get_db_router()
     file_dir = os.path.dirname(__file__)
     file_dir = os.path.abspath(os.path.join(file_dir, os.pardir))
     file_path = os.path.join(file_dir, f'data/stock_data_{date}.csv')
-    print(file_path)
+    # print(file_path)
     df = pd.read_csv(file_path)
-    with r.mysql_conn as conn:
-        db_executor.upload_data(df, table, conn)
-        if os.path.exists(file_path):
-            # 刪除檔案
-            os.remove(file_path)
+    # with r.mysql_conn as conn:
+    #     db_executor.upload_data(df, table, conn)
+    #     if os.path.exists(file_path):
+    #         # 刪除檔案
+    #         os.remove(file_path)
+    if is_data_uploaded(dataset='Joshua', table='stock_price', date=date):
+        upload_data_to_bigquery(dataset='Joshua', table='stock_price', df=df, write_disposition='WRITE_APPEND')
+        logger.info(f"Success upload {len(df)} data")
+    else:
+        logger.info("Already upload data")
+    if os.path.exists(file_path):
+        # 刪除檔案
+        os.remove(file_path)
 
 def send_message(**kwargs):
     params = kwargs['dag_run'].conf

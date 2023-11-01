@@ -1,6 +1,6 @@
-from .router import Router
+from router import Router
 
-r = router.Router()
+r = Router()
 
 def get_db_router():
     return r
