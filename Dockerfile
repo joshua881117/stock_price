@@ -4,7 +4,6 @@ WORKDIR /
 COPY ./requirements.txt /requirements.txt
 COPY src /src
 
-RUN python src/setup.py install
 RUN pip install --user --upgrade pip
 RUN pip install -r requirements.txt
 RUN pip install pymysql
