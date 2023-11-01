@@ -4,6 +4,7 @@
 airflow.sh
 
 logs
+py_env
 
 .ipynb_checkpoints
 dags/.ipynb_checkpoints
