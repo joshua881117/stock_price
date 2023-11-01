@@ -2,6 +2,7 @@ import pandas as pd
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 import gspread
+from google.cloud import bigquery
 from oauth2client.service_account import ServiceAccountCredentials
 from airflow.models import Variable
 import os
@@ -81,3 +82,41 @@ def read_target_stock_sheet(sheet_id, ws_name):
         data=ws.get_all_values()[1:], # 第一行為 column
     )
     return df
+
+def connect_to_bigquery():
+    '''建立 bigquery api 連線'''
+    scopes=["https://www.googleapis.com/auth/cloud-platform"]
+    creds = json.loads(Variable.get('gsheet_key'))
+    credentials = ServiceAccountCredentials.from_json_keyfile_dict(creds, scopes=scopes)
+    client = bigquery.Client(credentials=credentials, project=credentials.project_id)
+    return client
+
+def upload_data_to_bigquery(dataset, table, df, write_disposition='WRITE_APPEND'):
+    '''上傳資料到 bigquery table'''
+    client = connect_to_bigquery()
+    job_config = bigquery.LoadJobConfig()
+    job_config.write_disposition=write_disposition  # 可根據需求設定覆寫模式
+    table_id = f'{client.project}.{dataset}.{table}'
+    job = client.load_table_from_dataframe(dataframe=df, destination=table_id, job_config=job_config)
+    job.result()
+
+def query_data_from_bigquery(sql_query):
+    '''查詢 bigquery table 的資料'''
+    client = connect_to_bigquery()
+    query_job = client.query(query=sql_query)
+    results = query_job.result()
+    return results
+
+def is_data_uploaded(dataset, table, date):
+    sql_query = f"""
+        SELECT count(*) as counts
+        FROM `{dataset}.{table}` 
+        WHERE Date = '{date}'
+    """
+    results = query_data_from_bigquery(sql_query)
+    for row in results:
+        result = row.counts
+    if result == 0:
+        return False
+    else:
+        return True
