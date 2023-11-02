@@ -2,9 +2,7 @@ import pandas as pd
 from airflow import DAG
 from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.empty import EmptyOperator
-# from airflow.providers.mysql.operators.mysql import MySqlOperator
 from airflow.models.param import Param
-
 
 import datetime as dt 
 import sys
@@ -14,7 +12,6 @@ from crawler.stock_crawler import crawler_twse
 from stock_app.stock_functions import send_message_to_slack, upload_data_to_bigquery, is_data_uploaded
 
 import os
-from loguru import logger
 import logging
 
 default_args = {
@@ -27,16 +24,17 @@ default_args = {
 }
 
 def get_data(**kwargs):
+    '''爬證交所股票資料'''
     params = kwargs['dag_run'].conf
     # 獲取 DAG 參數，如果未傳入參數則預設為今日
     logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
     date = params.get('date', str(logical_date))
-
+    # 爬蟲
     df = crawler_twse(date)
-    file_dir = os.path.dirname(__file__)
-    file_dir = os.path.abspath(os.path.join(file_dir, os.pardir))
+    file_dir = os.path.dirname(__file__) # 目前檔案所在目錄
+    file_dir = os.path.abspath(os.path.join(file_dir, os.pardir)) # 上一層目錄
     file_path = os.path.join(file_dir, f'data/stock_data_{date}.csv')
-    print(file_path)
+    # 如果爬蟲下來沒資料，代表今天未開盤
     if len(df) == 0:
         return 'do_nothing'
     else:
@@ -44,35 +42,41 @@ def get_data(**kwargs):
         return 'upload_to_db'
 
 def upload_data(**kwargs):
+    '''上傳股票資料到 BigQuery'''
     params = kwargs['dag_run'].conf
     # 獲取 DAG 參數，如果未傳入參數則預設為今日
-    table = params.get('table', 'TaiwanStockPrice')
-    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
+    # table = params.get('table', 'TaiwanStockPrice')
+    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1) # DAG 執行時間，執行時間會較實際跑的時間早一天，所以要多加一天
     date = params.get('date', str(logical_date))
 
-    # r = db.get_db_router()
     file_dir = os.path.dirname(__file__)
     file_dir = os.path.abspath(os.path.join(file_dir, os.pardir))
     file_path = os.path.join(file_dir, f'data/stock_data_{date}.csv')
-    # print(file_path)
+
     df = pd.read_csv(file_path)
 
     df['Date'] = df['Date'].apply(lambda x: dt.datetime.strptime(str(x), '%Y-%m-%d'))
+    # 上傳到 mysql 資料庫
+    # r = db.get_db_router()
     # with r.mysql_conn as conn:
     #     db_executor.upload_data(df, table, conn)
     #     if os.path.exists(file_path):
     #         # 刪除檔案
     #         os.remove(file_path)
+
+    # 如果資料已經上傳就不重複上傳
     if is_data_uploaded(dataset='Joshua', table='stock_price', date=date):
         logging.info("Already upload data")
     else:
         upload_data_to_bigquery(dataset='Joshua', table='stock_price', df=df, write_disposition='WRITE_APPEND')
         logging.info(f"Success upload {len(df)} data")
+    # 上傳完就刪除 csv 檔
     if os.path.exists(file_path):
         # 刪除檔案
         os.remove(file_path)
 
 def send_message(**kwargs):
+    '''發送成功上傳訊息至 slack'''
     params = kwargs['dag_run'].conf
     logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
     date = params.get('date', str(logical_date))
@@ -90,7 +94,7 @@ with DAG(
     schedule = '0 18 * * Mon-Fri',
     params = {
         "date": Param(str(dt.date.today()), type='string'),
-        "table": Param("TaiwanStockPrice", type='string')
+        # "table": Param("TaiwanStockPrice", type='string')
     }
 ) as dag:
 

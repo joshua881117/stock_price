@@ -29,9 +29,10 @@ default_args = {
 }
 
 def is_holiday(**kwargs):
+    '''判斷是否為六日'''
     params = kwargs['dag_run'].conf
     # 獲取 DAG 參數，如果未傳入參數則預設為今日
-    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
+    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1) # DAG 執行時間，執行時間會較實際跑的時間早一天，所以要多加一天
     date = params.get('date', str(logical_date))
     date = dt.datetime.strptime(date, '%Y-%m-%d')
 
@@ -42,8 +43,9 @@ def is_holiday(**kwargs):
         return 'get_buy_record'
 
 def get_buy_price():
+    '''獲取股票購買明細'''
     sheet_id = '1emVQoQWeMqpAjfW155i3mWLQ2Cqo0OeQFhH4ZNlRR_w'
-    buy_df = read_target_stock_sheet(sheet_id, '股票庫存')
+    buy_df = read_target_stock_sheet(sheet_id, '股票庫存') # 從 google sheet 讀取明細
     buy_df.rename(
         columns={
             '股票代碼': 'stockID',
@@ -52,19 +54,21 @@ def get_buy_price():
         }, 
         inplace=True
     )
-
+    # 轉換欄位型態
     buy_df['buyPrice'] = pd.to_numeric(buy_df['buyPrice'])
     buy_df['buyVolume'] = pd.to_numeric(buy_df['buyVolume'])
     return buy_df
 
 def calculate_avg_price(ti):
-    buy_df = ti.xcom_pull(task_ids='get_buy_record')
+    '''計算每檔股票購買平均價格'''
+    buy_df = ti.xcom_pull(task_ids='get_buy_record') # 獲取購買明細
     buy_df['totalValue'] = buy_df.buyPrice * buy_df.buyVolume
     buy_df = buy_df.groupby(by=['stockID']).sum().reset_index()
     buy_df['avgPrice'] = buy_df.totalValue / buy_df.buyVolume
     return buy_df[['stockID', 'avgPrice']]
 
 def get_target_price():
+    '''獲取目標股票目標漲跌幅'''
     sheet_id = '1emVQoQWeMqpAjfW155i3mWLQ2Cqo0OeQFhH4ZNlRR_w'
     target_df = read_target_stock_sheet(sheet_id, '目標')
     target_df.rename(
@@ -75,21 +79,22 @@ def get_target_price():
         }, 
         inplace=True
     )
-
+    # 轉換欄位型態
     target_df['upPct'] = pd.to_numeric(target_df['upPct'])
     target_df['downPct'] = pd.to_numeric(target_df['downPct'])
     return target_df
 
 def get_stock_data(ti, **kwargs):
+    '''從 BQ 撈取特定股票價格'''
     params = kwargs['dag_run'].conf
     # 獲取 DAG 參數，如果未傳入參數則預設為今日
     logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
     date = params.get('date', str(logical_date))
 
-    buy_df = ti.xcom_pull(task_ids='get_avg_price')
-    stockID = list(buy_df['stockID'])
+    buy_df = ti.xcom_pull(task_ids='get_avg_price') # 獲取每檔股票平均價格資料
+    stockID = list(buy_df['stockID']) # 購買股票代碼清單
     stockID_str = str(stockID).strip('[]')
-
+    # 僅需要查詢有購買的股票代碼
     sql_query = f"""
         SELECT StockID, Close
         FROM Joshua.stock_price
@@ -100,40 +105,46 @@ def get_stock_data(ti, **kwargs):
     return stock_df
 
 def is_market_opened(ti):
-    stock_df = ti.xcom_pull(task_ids='get_stock_record')
+    '''判斷今日是否有開盤'''
+    stock_df = ti.xcom_pull(task_ids='get_stock_record') # 獲取 BQ 撈取的股票資料
+    # 如果無資料代表今天沒開盤
     if len(stock_df) == 0:
         return 'market_closed'
     else:
         return 'check_stock_price'
 
 def check_price(ti):
-    buy_df = ti.xcom_pull(task_ids='get_avg_price')
-    target_df = ti.xcom_pull(task_ids='get_target_record')
-    stock_df = ti.xcom_pull(task_ids='get_stock_record')
+    '''確認今日價格是否有達到目標漲跌幅'''
+    buy_df = ti.xcom_pull(task_ids='get_avg_price') # 獲取每檔股票平均價資料
+    target_df = ti.xcom_pull(task_ids='get_target_record') # 獲取目標漲跌幅
+    stock_df = ti.xcom_pull(task_ids='get_stock_record') # 獲取今日股票價格
 
     file_dir = os.path.dirname(__file__)
     file_dir = os.path.abspath(os.path.join(file_dir, os.pardir)) # 上一層的路揍
 
     up_list, down_list, result = check_target_stock_price(stock_df, buy_df, target_df)
-    result_path = os.path.join(file_dir, 'data/result.csv')
+    result_path = os.path.join(file_dir, 'data/result.csv') # 將結果存為 csv 檔
     result.to_csv(result_path, index=False)
     return up_list, down_list
 
 def is_meet_target(ti):
-    up_list, down_list = ti.xcom_pull(task_ids='check_stock_price')
+    '''判斷是否有達到目標漲跌幅'''
+    up_list, down_list = ti.xcom_pull(task_ids='check_stock_price') # 獲取達到漲幅、跌幅的股票代碼
     if len(up_list) + len(down_list) == 0:
         return 'do_nothing'
     else:
         return 'send_stock_message'
 
 def send_message_and_file(ti):
-    up_list, down_list = ti.xcom_pull(task_ids='check_stock_price')
-    message = generate_stock_message(up_list, down_list)
+    '''發送訊息和檔案到 slack'''
+    up_list, down_list = ti.xcom_pull(task_ids='check_stock_price') # 獲取達到漲幅、跌幅的股票代碼
+    message = generate_stock_message(up_list, down_list) # 產生訊息
 
     file_dir = os.path.dirname(__file__)
     file_dir = os.path.abspath(os.path.join(file_dir, os.pardir))
     result_path = os.path.join(file_dir, 'data/result.csv')
     result_file = pd.read_csv(result_path)
+
     upload_file_to_slack(
         channel='#股票到價通知', 
         app_name='stock_notify',
@@ -143,6 +154,7 @@ def send_message_and_file(ti):
     )
 
 def send_market_closed_message():
+    '''發送今日休市訊息'''
     send_message_to_slack(
         channel='#股票到價通知',
         app_name='stock_notify',
@@ -152,7 +164,7 @@ def send_market_closed_message():
 with DAG(dag_id = 'stock_notification',
     default_args = default_args,
     description = 'daily stock price notify',
-    schedule_interval='0 18 * * Mon-Fri',
+    schedule='0 18 * * Mon-Fri',
     params = {
         "date": Param(str(dt.date.today()), type='string')
     }
