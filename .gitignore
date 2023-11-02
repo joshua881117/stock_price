@@ -8,3 +8,4 @@ py_env
 
 .ipynb_checkpoints
 dags/.ipynb_checkpoints
+__pycache__/
