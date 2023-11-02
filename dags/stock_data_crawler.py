@@ -5,14 +5,17 @@ from airflow.operators.empty import EmptyOperator
 # from airflow.providers.mysql.operators.mysql import MySqlOperator
 from airflow.models.param import Param
 
+
 import datetime as dt 
+import sys
+sys.path.append("/opt/airflow/src")
+
 from crawler.stock_crawler import crawler_twse
-from backend import db
-from backend.db import db_executor
 from stock_app.stock_functions import send_message_to_slack, upload_data_to_bigquery, is_data_uploaded
 
 import os
 from loguru import logger
+import logging
 
 default_args = {
     'owner': 'Joshua Lin',
@@ -28,7 +31,7 @@ def get_data(**kwargs):
     # 獲取 DAG 參數，如果未傳入參數則預設為今日
     logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1)
     date = params.get('date', str(logical_date))
-    print(logical_date)
+
     df = crawler_twse(date)
     file_dir = os.path.dirname(__file__)
     file_dir = os.path.abspath(os.path.join(file_dir, os.pardir))
@@ -53,16 +56,18 @@ def upload_data(**kwargs):
     file_path = os.path.join(file_dir, f'data/stock_data_{date}.csv')
     # print(file_path)
     df = pd.read_csv(file_path)
+
+    df['Date'] = df['Date'].apply(lambda x: dt.datetime.strptime(str(x), '%Y-%m-%d'))
     # with r.mysql_conn as conn:
     #     db_executor.upload_data(df, table, conn)
     #     if os.path.exists(file_path):
     #         # 刪除檔案
     #         os.remove(file_path)
     if is_data_uploaded(dataset='Joshua', table='stock_price', date=date):
-        upload_data_to_bigquery(dataset='Joshua', table='stock_price', df=df, write_disposition='WRITE_APPEND')
-        logger.info(f"Success upload {len(df)} data")
+        logging.info("Already upload data")
     else:
-        logger.info("Already upload data")
+        upload_data_to_bigquery(dataset='Joshua', table='stock_price', df=df, write_disposition='WRITE_APPEND')
+        logging.info(f"Success upload {len(df)} data")
     if os.path.exists(file_path):
         # 刪除檔案
         os.remove(file_path)

@@ -3,7 +3,7 @@ import typing
 
 from loguru import logger
 from sqlalchemy import engine, text
-from db import clients
+from backend.db import clients
 
 def check_alive(
     connect: engine.base.Connection,
