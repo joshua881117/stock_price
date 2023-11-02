@@ -19,6 +19,8 @@ build-docker-image:
 
 deploy-airflow-service:
   stage: deploy
+  before_script:
+    - docker compose down
   script:
     - make deploy-airflow
   tags:
