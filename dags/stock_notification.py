@@ -26,23 +26,6 @@ default_args = {
     'retry_delay': dt.timedelta(minutes = 5)
 }
 
-<<<<<<< HEAD
-=======
-def is_holiday(**kwargs):
-    '''判斷是否為六日'''
-    params = kwargs['dag_run'].conf
-    # 獲取 DAG 參數，如果未傳入參數則預設為今日
-    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1) # DAG 執行時間，執行時間會較實際跑的時間早一天，所以要多加一天
-    date = params.get('date', str(logical_date))
-    date = dt.datetime.strptime(date, '%Y-%m-%d')
-
-    weekday = date.weekday()
-    if is_weekend(weekday):
-        return 'market_closed'
-    else:
-        return 'get_buy_record'
-
->>>>>>> 2199998a699b2224be815608b04a278a82acf33f
 def get_buy_price():
     '''獲取股票購買明細'''
     sheet_id = '1emVQoQWeMqpAjfW155i3mWLQ2Cqo0OeQFhH4ZNlRR_w'
@@ -125,8 +108,9 @@ def check_price(ti):
     stock_df = ti.xcom_pull(task_ids='get_stock_record') # 獲取今日股票價格
 
     file_dir = os.path.dirname(__file__)
-    file_dir = os.path.abspath(os.path.join(file_dir, os.pardir)) # 上一層的路揍
+    file_dir = os.path.abspath(os.path.join(file_dir, os.pardir)) # 上一層的路徑
 
+    # 獲取上漲、下跌股票清單
     up_list, down_list, result = check_target_stock_price(stock_df, buy_df, target_df)
     result_path = os.path.join(file_dir, 'data/result.csv') # 將結果存為 csv 檔
     result.to_csv(result_path, index=False)

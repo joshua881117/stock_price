@@ -96,19 +96,9 @@ def crawler_twse(
     # 2009 年以後的資料, 股價在 response 中的 data8
     df = pd.DataFrame()
     try:
-<<<<<<< HEAD
         if "tables" in res.json():
             df = pd.DataFrame(res.json()["tables"][8]['data'])
             colname = res.json()["tables"][8]['fields']
-    
-=======
-        if "data9" in res.json():
-            df = pd.DataFrame(res.json()["data9"])
-            colname = res.json()["fields9"]
-        elif "data8" in res.json():
-            df = pd.DataFrame(res.json()["data8"])
-            colname = res.json()["fields8"]
->>>>>>> 2199998a699b2224be815608b04a278a82acf33f
         elif res.json()["stat"] in [
             "查詢日期小於93年2月11日，請重新查詢!",
             "很抱歉，沒有符合條件的資料!",
