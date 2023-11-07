@@ -33,7 +33,10 @@ def get_data(**kwargs):
     else:
         logical_date += dt.timedelta(days=1) # 週二到週四的 logical_date 僅需要加一天
     date = params.get('date', str(logical_date))
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2199998a699b2224be815608b04a278a82acf33f
     # 爬蟲
     df = crawler_twse(date)
     file_dir = os.path.dirname(__file__) # 目前檔案所在目錄
@@ -51,11 +54,15 @@ def upload_data(**kwargs):
     params = kwargs['dag_run'].conf
     # 獲取 DAG 參數，如果未傳入參數則預設為今日
     # table = params.get('table', 'TaiwanStockPrice')
+<<<<<<< HEAD
     logical_date = kwargs['dag_run'].logical_date.date()
     if logical_date.weekday() == 4:
         logical_date += dt.timedelta(days=3) # 如果是週一執行的 DAG，logical_date 為前一個執行週期的日期(週五)，因此 logical_date 需要增加 3 天
     else:
         logical_date += dt.timedelta(days=1) # 週二到週四的 logical_date 僅需要加一天
+=======
+    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1) # DAG 執行時間，執行時間會較實際跑的時間早一天，所以要多加一天
+>>>>>>> 2199998a699b2224be815608b04a278a82acf33f
     date = params.get('date', str(logical_date))
 
     file_dir = os.path.dirname(__file__)
@@ -107,7 +114,12 @@ with DAG(
     start_date = dt.datetime(2023, 1, 1),
     schedule = '0 18 * * Mon-Fri',
     params = {
+<<<<<<< HEAD
         "date": Param(str(dt.date.today()), type='string')
+=======
+        "date": Param(str(dt.date.today()), type='string'),
+        # "table": Param("TaiwanStockPrice", type='string')
+>>>>>>> 2199998a699b2224be815608b04a278a82acf33f
     }
 ) as dag:
 

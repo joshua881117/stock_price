@@ -129,7 +129,10 @@ def search_data(
     table: str, 
     mysql_conn: engine.base.Connection
 ) -> typing.List:
+<<<<<<< HEAD
     """從 mysql 資料庫中撈取資料"""
+=======
+>>>>>>> 2199998a699b2224be815608b04a278a82acf33f
     try:
         sql_query = text(f"SELECT {target_columns} FROM {table} WHERE {condition}")
         result = mysql_conn.execute(sql_query).all()

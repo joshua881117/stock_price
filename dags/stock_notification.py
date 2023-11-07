@@ -26,6 +26,23 @@ default_args = {
     'retry_delay': dt.timedelta(minutes = 5)
 }
 
+<<<<<<< HEAD
+=======
+def is_holiday(**kwargs):
+    '''判斷是否為六日'''
+    params = kwargs['dag_run'].conf
+    # 獲取 DAG 參數，如果未傳入參數則預設為今日
+    logical_date = kwargs['dag_run'].logical_date.date() + dt.timedelta(days=1) # DAG 執行時間，執行時間會較實際跑的時間早一天，所以要多加一天
+    date = params.get('date', str(logical_date))
+    date = dt.datetime.strptime(date, '%Y-%m-%d')
+
+    weekday = date.weekday()
+    if is_weekend(weekday):
+        return 'market_closed'
+    else:
+        return 'get_buy_record'
+
+>>>>>>> 2199998a699b2224be815608b04a278a82acf33f
 def get_buy_price():
     '''獲取股票購買明細'''
     sheet_id = '1emVQoQWeMqpAjfW155i3mWLQ2Cqo0OeQFhH4ZNlRR_w'
