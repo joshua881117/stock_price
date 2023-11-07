@@ -421,7 +421,8 @@
         buy_df['buyVolume'] = pd.to_numeric(buy_df['buyVolume'])
         return buy_df
     ```
-    - ![使用者需要先在 Google Sheet 打上股票購買紀錄](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/Google%20Sheet%20%E8%B3%BC%E8%B2%B7%E6%98%8E%E7%B4%B0.png)
+    - 使用者需要先在 Google Sheet 打上股票購買紀錄
+![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/Google%20Sheet%20%E8%B3%BC%E8%B2%B7%E6%98%8E%E7%B4%B0.png)
 
 - 計算每支股票平均購買價
     ```
@@ -497,7 +498,7 @@
         return target_df
     ```
     - 使用者需要先在 Google Sheet 打上股票目標漲跌幅
-          ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/Google%20Sheet%20%E7%9B%AE%E6%A8%99%E6%BC%B2%E8%B7%8C%E5%B9%85.png)
+  ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/Google%20Sheet%20%E7%9B%AE%E6%A8%99%E6%BC%B2%E8%B7%8C%E5%B9%85.png)
 
 - 傳送休市通知至 Slack
     ```
