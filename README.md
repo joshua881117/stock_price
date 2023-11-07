@@ -18,7 +18,7 @@
 
 ### 工作流
 股價爬蟲
-![]((https://github.com/joshua881117/stock_price/blob/3c15074c55a98c0f72f32da09c63493b9695ce77/pictures/%E7%88%AC%E8%9F%B2%20DAG.png))
+![]((https://github.com/joshua881117/stock_price/blob/3c15074c55a98c0f72f32da09c63493b9695ce77/pictures/%E7%88%AC%E8%9F%B2%20DAG.png)
 
 股票到價通知
 ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E9%80%9A%E7%9F%A5%20DAG.png)
