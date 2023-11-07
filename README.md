@@ -13,7 +13,8 @@
 ### Airflow
 - 用 Docker 在本地端架設 Airflow
 - 因使用 LocalExecutor，不需要 Worker
-![](https://gitlab.com/joshualin2/airflow/-/blob/ef4a3a837d02841a4877ead73f14b6ddcaeb9ed7/pictures/Airflow%20%E6%9E%B6%E6%A7%8B.png)
+![](https://github.com/joshua881117/stock_price/blob/277d2b012a5759969fdd5bd237b696c41ac9c047/pictures/Airflow%20%E6%9E%B6%E6%A7%8B.png)
+
 
 ### 工作流
 股價爬蟲
