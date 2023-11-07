@@ -18,10 +18,10 @@
 
 ### 工作流
 股價爬蟲
-![](pictures/爬蟲 DAG.png)
+![]((https://github.com/joshua881117/stock_price/blob/3c15074c55a98c0f72f32da09c63493b9695ce77/pictures/%E7%88%AC%E8%9F%B2%20DAG.png))
 
 股票到價通知
-圖片：通知 DAG
+![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E9%80%9A%E7%9F%A5%20DAG.png)
 
 ## 實作
 
@@ -168,9 +168,9 @@
         - 在 GitLab 建立專案並將程式碼上傳
         - 在 GitLab 設定 Runner
             - 到 CI/CD settings 頁面建立 GitLab Runner
-            圖片：GitLab CI/CD Setting
+            ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/GitLab%20CI%3ACD%20Setting.png)
             選擇 Linux，Tags 跟上面 yaml 檔的 tags 要一致(build_airflow_image)
-            圖片：GitLab Runner 設定
+            ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/GitLab%20Runner%20%E8%A8%AD%E5%AE%9A.png)
             - 到本地端安裝 gitlab-runner
                 ```
                 # 安裝 binary 檔
@@ -191,14 +191,14 @@
                 ```
         - 測試自動部署流程
             - 下版本號
-            圖片：TAG 設定
+            ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/TAG%20%E8%A8%AD%E5%AE%9A.png)
             - 查看 pipeline 運行是否順利
-            圖片：自動化部署 pipeline
+            ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E8%87%AA%E5%8B%95%E5%8C%96%E9%83%A8%E7%BD%B2%20pipeline.png)
 
 ### DAG 運用到的 Functions
 #### 股價爬蟲
 - 找到證交所網站公布每支股票資料的網址
-    圖片：證交所網站
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E8%AD%89%E4%BA%A4%E6%89%80%E7%B6%B2%E7%AB%99.png)
 - 發送 requests
     ```
     url = "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date={date}&type=ALL&response=json"
@@ -212,15 +212,15 @@
 - 資料清洗+欄位轉換
 #### 上傳資料至 BigQuery 
 - 開啟 BigQuery API：到 API 和服務頁面，點選啟用 API 和服務，並啟用 BigQuery API
-    圖片：API 和服務頁面
-    圖片：BigQuery API
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/API%20%E5%92%8C%E6%9C%8D%E5%8B%99%E9%A0%81%E9%9D%A2.png)
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/BigQuery%20API.png)
 - 建立服務帳戶：到 IAM 與管理的服務帳戶頁面，點選建立服務帳戶，建立帳戶並授予 BigQuery 管理員權限
-    圖片：服務帳戶頁面
-    圖片：建立服務帳戶
-    圖片：給予權限
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E6%9C%8D%E5%8B%99%E5%B8%B3%E6%88%B6%E9%A0%81%E9%9D%A2.png)
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E5%BB%BA%E7%AB%8B%E6%9C%8D%E5%8B%99%E5%B8%B3%E6%88%B6.png)
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E7%B5%A6%E4%BA%88%E6%AC%8A%E9%99%90.png)
 - 建立金鑰：到服務帳戶清單點選剛建立的服務帳戶，進到金鑰頁面建立金鑰
-    圖片：服務帳戶清單
-    圖片：金鑰頁面
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E6%9C%8D%E5%8B%99%E5%B8%B3%E6%88%B6%E6%B8%85%E5%96%AE.png)
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E5%BB%BA%E7%AB%8B%E9%87%91%E9%91%B0.png)
 - 將金鑰下載並存放在 stock_app 目錄(和建立 API 連線的 python 檔同個目錄)
 - 測試是否能上傳資料至 BQ
     ```
@@ -235,13 +235,13 @@
 #### 傳送訊息至 Slack
 - 到 [Slack API APP 頁面](https://api.slack.com/apps)
 - 建立 APP
-    圖片：建立 APP
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E5%BB%BA%E7%AB%8B%20APP.png)
 - 到 OAuth & Permissions 頁面複製 APP 金鑰並存在 Airflow Variables
-    圖片：APP 金鑰
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/APP%20%E9%87%91%E9%91%B0.png)
 - 開啟上傳檔案、訊息到 Channel 的權限
-    圖片：開啟 Slack 權限
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E9%96%8B%E5%95%9F%20Slack%20%E6%AC%8A%E9%99%90.png)
 - 將 Slack APP 添加到目標 Channel
-    圖片：添加應用
+    ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/%E6%B7%BB%E5%8A%A0%E6%87%89%E7%94%A8.png)
 - 用 Python 測試 Slack APP 是否可以發送訊息、檔案
     ```
     oauth_token = "your_app_token"
@@ -370,7 +370,7 @@
         )
     ```
     - 發送訊息到 slack
-        圖片：slack 股價爬蟲
+        ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/slack%20%E8%82%A1%E5%83%B9%E7%88%AC%E8%9F%B2.png)
 
 - 組裝 DAG
     ```
@@ -422,7 +422,7 @@
         return buy_df
     ```
     - 使用者需要先在 Google Sheet 打上股票購買紀錄
-        圖片：Google Sheet 購買明細
+        ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/Google%20Sheet%20%E8%B3%BC%E8%B2%B7%E6%98%8E%E7%B4%B0.png)
 
 - 計算每支股票平均購買價
     ```
@@ -498,7 +498,7 @@
         return target_df
     ```
     - 使用者需要先在 Google Sheet 打上股票目標漲跌幅
-        圖片：Google Sheet 目標漲跌幅
+        ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/Google%20Sheet%20%E7%9B%AE%E6%A8%99%E6%BC%B2%E8%B7%8C%E5%B9%85.png)
 
 - 傳送休市通知至 Slack
     ```
@@ -563,7 +563,7 @@
         )
     ```
     - 發送訊息和結果檔案到 slack
-        圖片：slack 股價通知
+        ![](https://github.com/joshua881117/stock_price/blob/c5c56baa80a4356a3ce8e5de7b1c28e6528172de/pictures/slack%20%E8%82%A1%E5%83%B9%E9%80%9A%E7%9F%A5.png)
 
 - 組裝 DAG
     ```
