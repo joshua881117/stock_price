@@ -13,7 +13,7 @@
 ### Airflow
 - 用 Docker 在本地端架設 Airflow
 - 因使用 LocalExecutor，不需要 Worker
-[](https://gitlab.com/joshualin2/airflow/-/blob/ef4a3a837d02841a4877ead73f14b6ddcaeb9ed7/pictures/Airflow%20%E6%9E%B6%E6%A7%8B.png)
+![](https://gitlab.com/joshualin2/airflow/-/blob/ef4a3a837d02841a4877ead73f14b6ddcaeb9ed7/pictures/Airflow%20%E6%9E%B6%E6%A7%8B.png)
 
 ### 工作流
 股價爬蟲
@@ -27,7 +27,7 @@
 ### Airflow
 ##### 環境架設
 用 Docker 架設 Airflow 
-- 到[Airflow 官網](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)下載 docker-compose.yml
+- 到 [Airflow 官網](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html) 下載 docker-compose.yml
 - 修改 docker-compose.yml
     - 將 Executor 由 CeleryExecutor 改為 LocalExecutor
         - 因LocalExecutor 在本地端執行 Dag 所以不需要用到 Worker, Redis（註解掉架設 Worker, Redis 部分）
