@@ -81,10 +81,10 @@ x-airflow-common:
     AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
     AIRFLOW__SMTP__SMTP_STARTTLS: True
     AIRFLOW__SMTP__SMTP_SSL: False
-    AIRFLOW__SMTP__SMTP_USER: joshua881117@gmail.com
-    AIRFLOW__SMTP__SMTP_PASSWORD: ycpsliczzvwcwhxa
+    AIRFLOW__SMTP__SMTP_USER: your_email@gmail.com
+    AIRFLOW__SMTP__SMTP_PASSWORD: your_password
     AIRFLOW__SMTP__SMTP_PORT: 587
-    AIRFLOW__SMTP__SMTP_MAIL_FROM: joshua881117@gmail.com
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: your_email@gmail.com
     AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: 1
   networks:
     - airflow_network 
