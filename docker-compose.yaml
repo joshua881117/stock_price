@@ -128,8 +128,6 @@ services:
       - airflow_network
     volumes:
       - mysql:/var/lib/mysql
-      - /Users/linshuya/temp/config:/etc/mysql/conf.d
-      - /Users/linshuya/temp/cert:/etc/mysql/cert
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s

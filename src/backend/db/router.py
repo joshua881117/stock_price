@@ -1,7 +1,7 @@
 import time
 import typing
 
-from loguru import logger
+import logging
 from sqlalchemy import engine, text
 from backend.db import clients
 
@@ -23,21 +23,21 @@ def check_connect_alive(
     if connect:
         try:
             check_alive(connect)
-            if connect_count > 0:
-                logger.info("success reconnect")
+            logging.info("success reconnect")
             return connect
         except Exception as e:
-            logger.info(f"""{connect_func.__name__} reconnect, error: {e}""")
+            logging.info(f"""{connect_func.__name__} reconnect, error: {e}""")
             time.sleep(1)
             try:
-                connect = connect_func()
+                connect = connect_func() # 連線失敗重新嘗試
             except Exception as e:
-                logger.info(f"""{connect_func.__name__} connect error, error: {e}""")
-            connect_count += 1
-            if connect_count < 5:
+                logging.info(f"""{connect_func.__name__} connect error, error: {e}""")
+            connect_count += 1 
+            # 重新連線次數超過 5 次就停止
+            if connect_count < 5: 
                 return check_connect_alive(connect, connect_func, connect_count)
             else:
-                logger.info("reconnect too many times")
+                logging.info("reconnect too many times")
 
 class Router:
     def __init__(self):
@@ -53,6 +53,7 @@ class Router:
         )
         return self._mysql_conn
 
+    # 定義 mysql_conn 為 property 但實際上是用 mysql_conn() 來獲取值
     @property
     def mysql_conn(self):
         return (
