@@ -631,6 +631,6 @@
 - Python 大數據專案 X 工程 X 產品 資料工程師的升級攻略：
     - [書籍](https://www.tenlong.com.tw/products/9786267273739?list_name=b-r7-zh_tw)
     - [GitHub](https://github.com/FinMind/FinMindBook)
-- [code2j：Airflow Tutorial for Beginners](https://www.youtube.com/watch?v=K9AnJ9_ZAXE&list=PLwFJcsJ61oujAqYpMp1kdUBcPG0sE0QMT&index=1)
+- [coder2j：Airflow Tutorial for Beginners](https://www.youtube.com/watch?v=K9AnJ9_ZAXE&list=PLwFJcsJ61oujAqYpMp1kdUBcPG0sE0QMT&index=1)
 - [一段 Airflow 與資料工程的故事：談如何用 Python 追漫畫連載](https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)
 - [ChickenBenny：Airflow-scraping-ETL-tutorial](https://github.com/ChickenBenny/Airflow-scraping-ETL-tutorial)
